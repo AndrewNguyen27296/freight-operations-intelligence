@@ -1,0 +1,56 @@
+# Freight Operations Intelligence. Light theme, the alternative.
+# To ship a light build, copy this file over config.toml. Every value is
+# re-chosen against light surfaces, not inverted. docs/design-system.md, 1.3.
+
+[theme]
+base = "light"
+primaryColor = "#2a78d6"
+backgroundColor = "#f7f8fa"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#12151a"
+linkColor = "#2770c7"
+borderColor = "#e3e6eb"
+showWidgetBorder = true
+baseRadius = "6px"
+buttonRadius = "3px"
+baseFontSize = 14
+baseFontWeight = 400
+font = "IBM Plex Sans, Segoe UI, Helvetica Neue, Noto Sans, system-ui, sans-serif"
+headingFont = "Space Grotesk, Segoe UI Variable Display, Segoe UI, Helvetica Neue, system-ui, sans-serif"
+codeFont = "IBM Plex Mono, Cascadia Mono, SF Mono, Consolas, Menlo, monospace"
+codeFontSize = "13px"
+codeBackgroundColor = "#f2f4f7"
+dataframeBorderColor = "#e3e6eb"
+dataframeHeaderBackgroundColor = "#f2f4f7"
+chartCategoricalColors = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300"]
+chartSequentialColors = ["#eef5fd", "#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"]
+headingFontSizes = ["24px", "20px", "17px", "14px", "14px", "12px"]
+headingFontWeights = [600, 500, 600, 600, 500, 500]
+
+redColor = "#cc3a3a"
+redBackgroundColor = "#faebeb"
+redTextColor = "#12151a"
+orangeColor = "#a65c3f"
+orangeBackgroundColor = "#fdf3ee"
+orangeTextColor = "#12151a"
+yellowColor = "#92680f"
+yellowBackgroundColor = "#fef7e8"
+yellowTextColor = "#12151a"
+greenColor = "#0a820a"
+greenBackgroundColor = "#e7f6e7"
+greenTextColor = "#12151a"
+blueColor = "#2a78d6"
+blueBackgroundColor = "#eaf2fb"
+blueTextColor = "#12151a"
+grayColor = "#4a515e"
+grayBackgroundColor = "#f2f4f7"
+grayTextColor = "#12151a"
+violetColor = "#4a515e"
+violetBackgroundColor = "#f2f4f7"
+violetTextColor = "#12151a"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+runOnSave = true

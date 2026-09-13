@@ -1,0 +1,60 @@
+# Freight Operations Intelligence. Dark theme, the default.
+# The light alternative is config.light.toml; a customer build ships one of
+# the two as config.toml. Values mirror docs/design-system.md, section 1.3.
+
+[theme]
+base = "dark"
+primaryColor = "#3987e5"
+backgroundColor = "#0f1115"
+secondaryBackgroundColor = "#16181d"
+textColor = "#f2f4f7"
+linkColor = "#3987e5"
+borderColor = "#262a33"
+showWidgetBorder = true
+baseRadius = "6px"
+buttonRadius = "3px"
+baseFontSize = 14
+baseFontWeight = 450
+font = "IBM Plex Sans, Segoe UI, Helvetica Neue, Noto Sans, system-ui, sans-serif"
+headingFont = "Space Grotesk, Segoe UI Variable Display, Segoe UI, Helvetica Neue, system-ui, sans-serif"
+codeFont = "IBM Plex Mono, Cascadia Mono, SF Mono, Consolas, Menlo, monospace"
+codeFontSize = "13px"
+codeBackgroundColor = "#1c1f26"
+dataframeBorderColor = "#262a33"
+dataframeHeaderBackgroundColor = "#1c1f26"
+chartCategoricalColors = ["#3987e5", "#d95926", "#199e70", "#c98500", "#d55181", "#008300"]
+chartSequentialColors = ["#0d366b", "#184f95", "#256abf", "#3987e5", "#6da7ec", "#9ec5f4", "#cde2fb", "#eef5fd"]
+headingFontSizes = ["24px", "20px", "17px", "14px", "14px", "12px"]
+headingFontWeights = [600, 500, 600, 600, 500, 500]
+
+# Semantic colours. Streamlit's own alerts and badges read these, so a stray
+# st.warning() lands on the status palette. red = critical, orange = serious,
+# yellow = warning, green = good, blue = accent, gray = neutral.
+redColor = "#d95f5f"
+redBackgroundColor = "#341e22"
+redTextColor = "#f2f4f7"
+orangeColor = "#ec835a"
+orangeBackgroundColor = "#382927"
+orangeTextColor = "#f2f4f7"
+yellowColor = "#fab219"
+yellowBackgroundColor = "#3a311c"
+yellowTextColor = "#f2f4f7"
+greenColor = "#0ca30c"
+greenBackgroundColor = "#142e1a"
+greenTextColor = "#f2f4f7"
+blueColor = "#3987e5"
+blueBackgroundColor = "#1c2a3d"
+blueTextColor = "#f2f4f7"
+grayColor = "#a3aab8"
+grayBackgroundColor = "#1c1f26"
+grayTextColor = "#f2f4f7"
+violetColor = "#a3aab8"
+violetBackgroundColor = "#1c1f26"
+violetTextColor = "#f2f4f7"
+
+[client]
+# Removes Streamlit's stock theme picker, which would bypass every token.
+toolbarMode = "minimal"
+
+[server]
+runOnSave = true

@@ -1,0 +1,16 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Derived data — rebuilt from sample_data/ on first run by ensure_processed()
+data/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+# Pillar 1 — Logistics Freight Intelligence Dashboard
+# Standalone repository. Pinned to the exact set this build was verified on,
+# so a Streamlit Community Cloud deploy resolves the same wheels every time.
+# Pure-Python/manylinux wheels only — no system packages, no apt, no compiler.
+streamlit==1.50.0
+pandas==2.3.3
+numpy==2.4.6
+plotly==6.9.0
+pyarrow==21.0.0

@@ -1,0 +1,732 @@
+CONSIGNMENT_NO;DESPATCH_DATE;HAULIER;COLLECT_CITY;COLLECT_CC;DELIVER_CITY;DELIVER_CC;SERVICE;ACCOUNT_TYPE;GROSS_WEIGHT_KG;NET_CHARGE;CCY;DAYS_IN_TRANSIT;SLA_DAYS;CONSIGNMENT_STATUS
+ORD-100493;2026-01-26;Vantage Freight Ltd;Hamburg;DE;Berlin;DE;Economy;E-Commerce;2.84;24.02;EUR;4.0;7;In Transit
+ORD-101963;2026-05-25 00:00:00;Vantage;Hamburg;DE;Amsterdam;NL;Standard;Wholesale;32.93;71.18;EUR;2.0;4;Delivered
+ORD-104711;May 11, 2026; Nordfrakt ;Rotterdam;NL;Copenhagen;DK;Standard;Wholesale;3.76;34.96;EUR;2.0;4;DELIVERED
+ORD-100333;2026-06-01 00:00:00;Nordfrakt;Gothenburg;SE;Rome;IT;Standard;Retail;12.84;73.4;USD;5.0;4;Delayed
+ORD-100679;Jul 27, 2026;Meridian Express;Hamburg;DE;Cologne;DE;Express;Retail;4.28;106.46;USD;2.0;2;Delivered
+ORD-102836;2026-08-12;Vantage Freight Ltd;Milan;IT;Cologne;DE;Economy;Retail;11.31;36.46;EUR;5.0;7;Delivered
+ORD-101138;2026-04-13;Nordfrakt AB;Gothenburg;SE;Marseille;FR;Standard;Industrial;9.53;70.21;EUR;3.0;4;Delivered
+ORD-103812;2026-03-06 00:00:00;hanseatic line;Hamburg;DE;Bergen;NO;Standard;E-Commerce;16.53;63.56;EUR;3.0;4;Delivered
+ORD-102898;12/05/2026;baltica;Gothenburg;SE;Munich;DE;Express;E-Commerce;35.76;158.06;USD;;2;Cancelled
+ORD-104134;2026-08-24 00:00:00;HANSEATIC;Rotterdam;NL;Gdansk;PL;Standard;E-Commerce;9.49;46.59;EUR;6.0;4;Delayed
+ORD-103299;2026-05-15 00:00:00;hanseatic line;Gothenburg;SE;Eindhoven;NL;Standard;Wholesale;20.22;71.61;EUR;4.0;4;Delivered
+ORD-104537;2026-04-02 00:00:00;Vantage Freight;Rotterdam;NL;Munich;DE;Express;Wholesale;13.14;;EUR;2.0;2;Delivered
+ORD-102382;2026-07-17;hanseatic line;Rotterdam;NL;Munich;DE;Standard;Retail;33.86;84.89;EUR;4.0;4;Delivered
+ORD-104783;2026-04-20;Vantage;Gothenburg;SE;Munich;DE;Express;E-Commerce;1.37;78.66;USD;2.0;2;Delivered
+ORD-101333;2026-05-18 00:00:00;Baltica Logistics A/S;Hamburg;DE;Munich;DE;Standard;Wholesale;18.62;56.89;EUR;4.0;4;Delivered
+ORD-100199;11/08/2026;Nordfrakt;Gothenburg;SE;Gothenburg;SE;Standard;E-Commerce;68.07;161.72;EUR;2.0;4;Delivered
+ORD-101938;2026-08-09;Vantage;Gothenburg;SE;London;GB;Standard;Wholesale;31.87;;USD;4.0;4;DELIVERED
+ORD-104471;2026-06-25;KESTREL PARCEL;Gothenburg;SE;Gdansk;PL;Economy;E-Commerce;17.43;37.63;EUR;6.0;7;Delivered
+ORD-104896;Jun 10, 2026; Nordfrakt ;Rotterdam;NL;Cologne;DE;Standard;Industrial;9.28;;EUR;3.0;4;Delivered
+ORD-101454;09/01/2026; Meridian Express;Rotterdam;NL;Cologne;DE;Express;E-Commerce;27.87;170.93;USD;2.0;2;Delivered
+ORD-103969;2026-02-03 00:00:00;Vantage Freight;Gothenburg;SE;Copenhagen;DK;Economy;Industrial;10.72;36.4;EUR;4.0;7;Delivered
+ORD-104593;Apr 04, 2026;baltica;Hamburg;DE; Lyon ;FR;Express;E-Commerce;39.4;215.78;EUR;2.0;2;Delivered
+ORD-103674;2026-02-18;Nordfrakt;Hamburg;DE;Eindhoven;NL;Economy;Industrial;6.69;31.75;EUR;3.0;7;Delivered
+ORD-102112;2026-07-15 00:00:00;Meridian Express;Gothenburg;SE;Valencia;ES;Standard;Industrial;25.28;77.95;USD;5.0;4;Delayed
+ORD-104665;28/05/2026;baltica;Milan;IT;Manchester;GB;Standard;Wholesale;44.45;107.85;EUR;4.0;4;Delivered
+ORD-103447;2026-01-04;Meridian Expr;Gothenburg;SE;Vienna;AT;Standard;Industrial;9.43;51.31;EUR;4.0;4;Delivered
+ORD-103176;2026-02-01 00:00:00;Nordfrakt AB;Milan;IT; Paris ;FR;Standard;Wholesale;23.75;86.73;USD;4.0;4;Delivered
+ORD-102131;2026-08-18 00:00:00;vantage freight;Rotterdam;NL; Turin ;IT;Economy;E-Commerce;19.22;44.76;EUR;6.0;7;Delivered
+ORD-100765;03/05/2026;Meridian Express;Milan;IT;Vienna;AT;Standard;Wholesale;17.23;62.01;EUR;3.0;4;Delivered
+ORD-104263;2026-04-20;Vantage;Rotterdam;NL;London;GB;Standard;Retail;3.79;51.38;EUR;4.0;4;Delivered
+ORD-101133;23/04/2026;Meridian Expr;Rotterdam;NL;Warsaw;PL;Standard;Industrial;28.99;70.24;EUR;4.0;4;Delivered
+ORD-100394;2026-03-31 00:00:00;MERIDIAN EXPRESS;Rotterdam;NL;Lyon;FR;Standard;E-Commerce;32.89;80.34;EUR;4.0;4;Delivered
+ORD-103626;Apr 28, 2026;HANSEATIC;Gothenburg;SE;Eindhoven;NL;Express;Retail;36.68;100.95;EUR;2.0;2;Delivered
+ORD-100045;2026-08-15;Vantage;Rotterdam;NL;Helsinki;FI;Express;Industrial;38.27;216.19;USD;3.0;2;Delayed
+ORD-103269;2026-08-22 00:00:00; Meridian Express;Milan;IT;Geneva;CH;Express;E-Commerce;20.64;124.71;EUR;2.0;2;Delivered
+ORD-104585;Jan 30, 2026;Hanseatic Lines;Rotterdam;NL;Berlin;DE;Standard;Retail;19.67;625.06;SEK;4.0;4;Delivered
+ORD-103487;2026-08-09;Hanseatic Lines;Rotterdam;NL;Gothenburg;SE;Standard;Industrial;2.82;34.79;EUR;3.0;4;Delivered
+ORD-103924;14/02/2026;Nordfrakt AB;Gothenburg;SE;Berlin;DE;Standard;Wholesale;29.91;;EUR;3.0;4;Delivered
+ORD-102184;2026-02-11 00:00:00;Vantage Freight Ltd;Gothenburg;SE;Amsterdam;NL;Express;Industrial;49.35;221.89;EUR;1.0;2;Delivered
+ORD-102701;2026-05-11;Vantage Freight Ltd;Rotterdam;NL;Frankfurt;DE;Standard;Industrial;18.08;79.61;EUR;4.0;4;Delivered
+ORD-102071;2026-02-19 00:00:00; Nordfrakt ;Milan;IT;Valencia;ES;Express;Wholesale;35.88;203.64;USD;3.0;2;Delayed
+ORD-103095;2026-04-17 00:00:00;Meridian Expr;Rotterdam;NL;Turin;IT;Standard;Retail;8.86;57.07;EUR;3.0;4;Delivered
+ORD-102364;2026-04-22 00:00:00;Meridian Expr;Hamburg;DE;Turin;IT;Standard;Industrial;13.49;60.87;EUR;4.0;4;Delivered
+ORD-103983;2026-03-06;Nordfrakt AB;Gothenburg;SE;Munich;DE;Economy;Retail;5.76;32.89;EUR;5.0;7;Delivered
+ORD-100074;Mar 12, 2026;Nordfrakt;Barcelona;ES;Madrid;ES;Economy;Wholesale;19.99;40.25;EUR;6.0;7;Delivered
+ORD-101764;Jan 12, 2026;MERIDIAN EXPRESS;Hamburg;DE;Gdansk;PL;Economy;E-Commerce;40.9;69.59;EUR;5.0;7;Delivered
+ORD-103543;2026-04-30 00:00:00;Vantage;Hamburg;DE;Turin;IT;Standard;Industrial;18.19;78.32;USD;4.0;4;Delivered
+ORD-103238;2026-06-28 00:00:00;Nordfrakt;Hamburg;DE;Manchester;GB;Standard;Retail;13.8;65.86;USD;5.0;4;Delayed
+ORD-100986;02/02/2026;Baltica Logistics;Hamburg;DE;Eindhoven;NL;Economy;Retail;7.38;35.28;USD;5.0;7;Delivered
+ORD-100222;2026-03-23 00:00:00;Vantage;Milan;IT;Munich;DE;Standard;Industrial;76.92;175.62;EUR;;4;Cancelled
+ORD-102566;May 14, 2026; Meridian Express;Gothenburg;SE;Zurich;CH;Economy;Wholesale;44.27;66.24;EUR;5.0;7;Delivered
+ORD-101348;2026-04-08;KESTREL PARCEL;Rotterdam;NL;Helsinki;FI;Economy;E-Commerce;17.18;46.89;EUR;7.0;7;Delivered
+ORD-102863;2026-02-02 00:00:00;Baltica Logistics;Hamburg;DE;Madrid;ES;Standard;Wholesale;16.72;70.86;EUR;4.0;4;Delivered
+ORD-100347;2026-07-27;MERIDIAN EXPRESS;Gothenburg;SE;Cologne;DE;Economy;E-Commerce;38.88;63.09;EUR;4.0;7;Delivered
+ORD-104682;2026-03-18 00:00:00;Vantage Freight Ltd;Gothenburg;SE;Marseille;FR;Standard;E-Commerce;24.42;67.19;EUR;3.0;4;Delivered
+ORD-100530;23/01/2026;Meridian Expr;Hamburg;DE;Vienna;AT;Standard;Retail;49.67;1250.99;SEK;3.0;4;Delivered
+ORD-101028;Jan 05, 2026;nordfrakt;Milan;IT;Marseille;FR;Standard;Industrial;24.76;63.66;EUR;3.0;4;Delivered
+ORD-104570;2026-03-16 00:00:00;Baltica Logistics;Rotterdam;NL;Aarhus;DK;Express;E-Commerce;42.6;211.2;USD;2.0;2;Delivered
+ORD-104755;26/01/2026;Hanseatic Line;Hamburg;DE;Graz;AT;Express;Industrial;11.31;113.49;USD;4.0;2;Delayed
+ORD-101779;Mar 11, 2026;vantage freight;Hamburg;DE;Lyon;FR;Economy;Industrial;29.33;57.41;EUR;4.0;7;Delivered
+ORD-103957;2026-04-08 00:00:00; Meridian Express;Gothenburg;SE;Prague;CZ;Standard;Retail;26.61;68.88;EUR;4.0;4;Delivered
+ORD-103752;2026-08-10;baltica;Rotterdam;NL;Zurich;CH;Standard;E-Commerce;46.03;109.19;EUR;4.0;4;Delivered
+ORD-103778;Aug 23, 2026;Baltica Log.;Gothenburg;SE;Madrid;ES;Economy;Retail;66.45;107.4;EUR;;7;Cancelled
+ORD-104177;30/03/2026;Kestrel Parcels AB;Gothenburg;SE;Bergen;NO;Standard;E-Commerce;22.53;70.19;USD;4.0;4;Delivered
+ORD-103491;12/02/2026;Baltica Logistics;Barcelona;ES;Bergen;NO;Standard;Retail;3.89;46.24;EUR;3.0;4;Delivered
+ORD-104899;16/01/2026; Meridian Express;Hamburg;DE;Gothenburg;SE;Standard;Industrial;32.15;69.23;EUR;2.0;4;Delivered
+ORD-102157;2026-02-11 00:00:00;nordfrakt;Barcelona;ES;Turin;IT;Express;Retail;56.65;261.6;USD;2.0;2;Delivered
+ORD-101886;23/02/2026; Meridian Express;Gothenburg;SE;Paris;FR;Economy;E-Commerce;50.96;65.07;EUR;6.0;7;Delivered
+ORD-101704;20/07/2026;Kestrel Parcel;Barcelona;ES;Frankfurt;DE;Economy;Retail;7.99;33.29;EUR;5.0;7;Delivered
+ORD-104717;Aug 26, 2026;Vantage;Hamburg;DE;Geneva;CH;Standard;Wholesale;59.55;109.9;EUR;2.0;4;Delivered
+ORD-103302;26/01/2026;Nordfrakt AB;Barcelona;ES;Zurich;CH;Economy;Retail;59.57;77.23;EUR;5.0;7;DELIVERED
+ORD-103136;13/01/2026;kestrel;Rotterdam;NL;Munich;DE;Standard;E-Commerce;4.71;;EUR;4.0;4;Delivered
+ORD-100311;2026-03-05;Vantage Freight;Rotterdam;NL;Oslo;NO;Standard;E-Commerce;4.15;464.86;SEK;4.0;4;Delivered
+ORD-101631;2026-07-06 00:00:00;Hanseatic Lines;Rotterdam;NL;Amsterdam;NL;Economy;Wholesale;13.36;33.75;USD;6.0;7;Delivered
+ORD-103628;Jun 08, 2026;Nordfrakt AB;Milan;IT;Berlin;DE;Standard;E-Commerce;17.26;55.82;EUR;4.0;4;Delivered
+ORD-102067;2026-07-11; Meridian Express;Hamburg;DE;Munich;DE;Economy;Wholesale;39.36;78.78;USD;3.0;7;Delivered
+ORD-101426;04/03/2026;Meridian Express;Hamburg;DE;Berlin;DE;Standard;E-Commerce;61.29;100.52;USD;3.0;4;In Transit
+ORD-100357;2026-07-03;MERIDIAN EXPRESS;Gothenburg;SE;Paris;FR;Standard;Industrial;29.44;90.81;EUR;3.0;4;Delivered
+ORD-101129;Feb 20, 2026;Vantage;Rotterdam;NL;Eindhoven;NL;Economy;Retail;42.01;58.63;EUR;3.0;7;Delivered
+ORD-103966;2026-05-06 00:00:00;Baltica Logistics;Rotterdam;NL;Frankfurt;DE;Standard;Wholesale;73.56;1828.84;SEK;4.0;4;Delivered
+ORD-104089;21/08/2026;Kestrel Parcel;Barcelona;ES;Manchester;GB;Standard;Industrial;5.86;37.58;EUR;3.0;4;Delivered
+ORD-101827;2026-08-24;Vantage Freight Ltd;Gothenburg;SE;Stockholm;SE;Standard;Industrial;65.14;146.73;EUR;2.0;4;Delivered
+ORD-100128;2026-01-12 00:00:00; Meridian Express;Rotterdam;NL;Prague;CZ;Economy;Retail;11.8;500.3;SEK;6.0;7;Delivered
+ORD-100657;Feb 11, 2026;Baltica Logistics;Gothenburg;SE;Graz;AT;Express;Wholesale;24.7;119.95;EUR;2.0;2;Delivered
+ORD-101246;Jun 16, 2026;Vantage;Gothenburg;SE;Brno;CZ;Standard;Wholesale;6.65;563.18;SEK;2.0;4;Delivered
+ORD-100201;2026-07-13 00:00:00;Meridian Express;Rotterdam;NL;Manchester;GB;Standard;Wholesale;46.45;118.64;EUR;4.0;4;In Transit
+ORD-101421;2026-08-31 00:00:00;baltica;Milan;IT;Rome;IT;Economy;Industrial;18.37;55.17;USD;6.0;7;Delivered
+ORD-100954;2026-05-06;vantage freight;Milan;IT; Krakow ;PL;Economy;Industrial;34.31;52.73;EUR;6.0;7;Delivered
+ORD-104350;29/01/2026;Nordfrakt AB;Gothenburg;SE;Madrid;ES;Economy;Industrial;24.02;53.14;EUR;8.0;7;Delayed
+ORD-102361;Apr 17, 2026;Vantage Freight;Gothenburg;SE;Manchester;GB;Standard;Retail;72.26;126.17;EUR;3.0;4;Delivered
+ORD-100593;2026-08-20 00:00:00;nordfrakt;Hamburg;DE;Oslo;NO;Standard;Retail;25.15;81.55;EUR;3.0;4;Delivered
+ORD-101974;2026-01-01 00:00:00; Nordfrakt ;Hamburg;DE;Tampere;FI;Economy;Retail;47.82;89.08;EUR;6.0;7;Delivered
+ORD-103894;2026-01-29;vantage freight;Rotterdam;NL;Berlin;DE;Standard;E-Commerce;13.18;60.33;EUR;3.0;4;DELIVERED
+ORD-101980;24/02/2026;kestrel;Barcelona;ES;Krakow;PL;Standard;Wholesale;20.08;76.72;EUR;7.0;4;Delayed
+ORD-102374;19/03/2026;Vantage Freight Ltd;Gothenburg;SE;Turin;IT;Economy;Wholesale;9.95;43.92;EUR;6.0;7;Delivered
+ORD-104554;2026-03-25 00:00:00; Nordfrakt ;Rotterdam;NL;Cologne;DE;Standard;Industrial;84.21;157.35;EUR;4.0;4;Delivered
+ORD-104449;07/07/2026;nordfrakt;Gothenburg;SE;Cologne;DE;Economy;Industrial;4.4;26.9;EUR;4.0;7;Delivered
+ORD-101187;23/01/2026;Vantage Freight;Hamburg;DE;Malmo;SE;Economy;E-Commerce;32.59;44.96;EUR;3.0;7;Delivered
+ORD-103403;Aug 24, 2026;Kestrel Parcel;Gothenburg;SE;Eindhoven;NL;Standard;E-Commerce;6.99;47.58;EUR;3.0;4;Delivered
+ORD-100042;Mar 20, 2026;Kestrel Parcel;Milan;IT;Stockholm;SE;Express;Industrial;29.98;90.52;EUR;1.0;2;Delivered
+ORD-102149;2026-06-12;nordfrakt;Barcelona;ES;Gothenburg;SE;Economy;E-Commerce;13.25;31.51;EUR;2.0;7;Delivered
+ORD-101273;06/03/2026;Nordfrakt AB;Rotterdam;NL;Amsterdam;NL;Standard;Retail;14.27;44.81;EUR;2.0;4;Delivered
+ORD-102182;2026-01-27 00:00:00;Nordfrakt;Rotterdam;NL; Krakow ;PL;Standard;E-Commerce;13.19;63.58;USD;3.0;4;Delivered
+ORD-102795;2026-07-16;Meridian Express;Milan;IT;Frankfurt;DE;Standard;Industrial;16.17;59.42;USD;3.0;4;Delivered
+ORD-102620;2026-06-09;Kestrel Parcels AB;Rotterdam;NL;Rome;IT;Standard;Retail;38.42;1110.9;SEK;5.0;4;Delayed
+ORD-101898;2026-04-15 00:00:00;HANSEATIC;Milan;IT;Stockholm;SE;Economy;Retail;26.68;46.38;EUR;3.0;7;Delivered
+ORD-103707;20/04/2026;Nordfrakt AB;Hamburg;DE;Oslo;NO;Express;E-Commerce;24.1;121.46;EUR;2.0;2;Delivered
+ORD-103226;Jan 12, 2026;vantage freight;Gothenburg;SE;Turin;IT;Economy;Industrial;28.93;60.6;EUR;-5.0;7;Delivered
+ORD-100604;May 28, 2026; Nordfrakt ;Gothenburg;SE;Turin;IT;Standard;E-Commerce;19.55;765.18;SEK;4.0;4;Delivered
+ORD-101233;2026-04-16 00:00:00;KESTREL PARCEL;Gothenburg;SE;Lyon;FR;Express;E-Commerce;61.17;272.72;EUR;2.0;2;In Transit
+ORD-100066;2026-07-11;vantage freight;Gothenburg;SE;Oslo;NO;Standard;E-Commerce;9.39;48.17;EUR;4.0;4;Delivered
+ORD-101433;Jan 05, 2026; Nordfrakt ;Hamburg;DE;Cologne;DE;Economy;Retail;10.13;33.35;EUR;5.0;7;Delivered
+ORD-100893;2026-08-21 00:00:00;nordfrakt;Gothenburg;SE;Cologne;DE;Standard;Industrial;16.97;68.33;EUR;5.0;4;Delayed
+ORD-102588;2026-08-17;Meridian Expr;Gothenburg;SE;Malmo;SE;Standard;E-Commerce;26.55;70.95;USD;2.0;4;Delivered
+ORD-100355;2026-08-27;Nordfrakt;Barcelona;ES;Stockholm;SE;Standard;Industrial;19.16;67.55;USD;1.0;4;Delivered
+ORD-101842;2026-05-25;Kestrel Parcel;Rotterdam;NL;Manchester;GB;Express;Wholesale;10.88;97.52;EUR;3.0;2;Delayed
+ORD-102407;2026-03-26;Vantage Freight;Barcelona;ES;Frankfurt;DE;Economy;E-Commerce;23.76;55.14;USD;4.0;7;Delivered
+ORD-101314;2026-07-09;Vantage;Hamburg;DE;Geneva;CH;Standard;Retail;42.6;123.67;EUR;2.0;4;Delivered
+ORD-103461;2026-08-03;Hanseatic Lines;Hamburg;DE;Paris;FR;Economy;Wholesale;18.31;44.12;EUR;4.0;7;Delivered
+ORD-100041;2026-04-21 00:00:00;Kestrel Parcels AB;Rotterdam;NL;Stockholm;SE;Express;Wholesale;19.5;116.41;USD;2.0;2;Delivered
+ORD-103592;24/08/2026;kestrel;Rotterdam;NL;Oslo;NO;Standard;Retail;12.99;67.35;USD;3.0;4;Delivered
+ORD-103609;2026-03-06;MERIDIAN EXPRESS;Hamburg;DE;Stockholm;SE;Standard;E-Commerce;29.1;74.6;EUR;1.0;4;Delivered
+ORD-101370;2026-06-29;Vantage Freight Ltd;Gothenburg;SE;Rome;IT;Standard;Industrial;41.17;62.85;USD;4.0;4;Delivered
+ORD-101566;14/08/2026;MERIDIAN EXPRESS;Hamburg;DE;Tampere;FI;Economy;Industrial;46.5;73.03;EUR;5.0;7;Delivered
+ORD-104849;Jul 08, 2026;Nordfrakt AB;Hamburg;DE;Bergen;NO;Standard;E-Commerce;23.78;55.16;EUR;3.0;4;Delivered
+ORD-102437;07/03/2026;vantage freight;Barcelona;ES;Gothenburg;SE;Standard;Industrial;63.06;1042.53;SEK;2.0;4;Delivered
+ORD-102999;2026-02-27;vantage freight;Rotterdam;NL;Valencia;ES;Standard;E-Commerce;25.95;76.81;EUR;5.0;4;Delayed
+ORD-103316;2026-02-10 00:00:00; Meridian Express;Milan;IT;Warsaw;PL;Standard;Wholesale;9.22;64.84;USD;;4;Delivered
+ORD-104952;May 04, 2026;KESTREL PARCEL;Milan;IT;Berlin;DE;Standard;Retail;21.39;77.24;EUR;4.0;4;Delivered
+ORD-101317;19/01/2026;Nordfrakt;Gothenburg;SE;Lyon;FR;Economy;Retail;15.52;43.91;EUR;4.0;7;DELIVERED
+ORD-103184;2026-02-09 00:00:00;Meridian Expr;Hamburg;DE;Munich;DE;Economy;E-Commerce;39.1;51.16;EUR;4.0;7;Delivered
+ORD-100025;17/02/2026;Nordfrakt AB;Milan;IT;Rome;IT;Express;Industrial;45.63;210.3;USD;2.0;2;Delivered
+ORD-103392;2026-05-12 00:00:00;Kestrel Parcel;Gothenburg;SE;Krakow;PL;Standard;Wholesale;21.26;70.23;EUR;5.0;4;Delayed
+ORD-103611;2026-03-10;Vantage Freight Ltd;Hamburg;DE;Amsterdam;NL;Standard;Industrial;18.35;57.49;EUR;2.0;4;In Transit
+ORD-101126;Jun 12, 2026;kestrel;Rotterdam;NL;Frankfurt;DE;Express;E-Commerce;4.31;53.55;EUR;2.0;2;Delivered
+ORD-103577;Jun 15, 2026;Baltica Log.;Rotterdam;NL;Copenhagen;DK;Standard;Wholesale;9.09;47.57;EUR;2.0;4;Delivered
+ORD-104850;2026-07-23 00:00:00;nordfrakt;Gothenburg;SE;Madrid;ES;Express;E-Commerce;22.53;174.36;USD;3.0;2;Delayed
+ORD-103648;2026-08-31;Baltica Logistics A/S;Hamburg;DE;Warsaw;PL;Economy;Retail;36.47;68.54;EUR;4.0;7;Delivered
+ORD-100586;Mar 16, 2026;HANSEATIC;Gothenburg;SE;Turin;IT;Express;Retail;31.66;134.79;EUR;4.0;2;Delayed
+ORD-100601;2026-05-04 00:00:00;Nordfrakt AB;Gothenburg;SE;Berlin;DE;Standard;Industrial;27.99;70.2;EUR;4.0;4;Delivered
+ORD-103186;27/04/2026;Nordfrakt AB;Gothenburg;SE;Zurich;CH;Standard;Wholesale;11.88;69.35;EUR;4.0;4;Delivered
+ORD-102613;2026-01-22 00:00:00;nordfrakt;Milan;IT;Eindhoven;NL;Economy;Industrial;47.23;59.37;EUR;2.0;7;Delivered
+ORD-100885;Apr 08, 2026;Nordfrakt;Barcelona;ES;Vienna;AT;Express;Wholesale;73.79;306.46;EUR;2.0;2;DELIVERED
+ORD-104942;03/06/2026;baltica;Gothenburg;SE;Berlin;DE;Standard;Retail;33.53;69.43;EUR;4.0;4;Delivered
+ORD-104549;Jun 21, 2026; Nordfrakt ;Gothenburg;SE;Cologne;DE;Economy;Wholesale;38.24;649.38;SEK;4.0;7;Delivered
+ORD-104678;2026-02-23;hanseatic line;Gothenburg;SE;Bergen;NO;Economy;E-Commerce;22.36;41.7;EUR;6.0;7;Delivered
+ORD-104136;2026-08-17 00:00:00;kestrel;Hamburg;DE; Paris ;FR;Express;Retail;33.07;177.02;USD;3.0;2;Delayed
+ORD-104638;2026-02-02 00:00:00;vantage freight;Gothenburg;SE; Munich ;DE;Standard;Retail;60.34;135.38;USD;3.0;4;Delivered
+ORD-102457;2026-07-27;KESTREL PARCEL;Rotterdam;NL;Vienna;AT;Standard;Retail;29.31;1098.1999999999998;USD;4.0;4;Delivered
+ORD-100408;26/07/2026;Kestrel Parcels AB;Hamburg;DE;London;GB;Standard;Wholesale;7.51;54.49;EUR;5.0;4;Delayed
+ORD-103265;Feb 16, 2026; Meridian Express;Rotterdam;NL;Turin;IT;Economy;Industrial;12.47;35.66;EUR;6.0;7;Delivered
+ORD-102038;2026-08-25 00:00:00;KESTREL PARCEL;Rotterdam;NL;Rome;IT;Standard;Industrial;21.76;73.09;EUR;5.0;4;Delayed
+ORD-103570;13/05/2026; Meridian Express;Rotterdam;NL;Lyon;FR;Standard;Wholesale;50.96;105.94;EUR;3.0;4;Delivered
+ORD-101649;03/06/2026; Nordfrakt ;Barcelona;ES;Graz;AT;Economy;E-Commerce;44.22;54.59;EUR;6.0;7;Delivered
+ORD-103891;22/07/2026;Nordfrakt AB;Gothenburg;SE;Brno;CZ;Standard;Industrial;54.57;112.0;EUR;4.0;4;Delivered
+ORD-101087;26/08/2026;Nordfrakt;Milan;IT;Malmo;SE;Standard;Wholesale;5.26;48.82;USD;2.0;4;Delivered
+ORD-104891;2026-01-08; Nordfrakt ;Barcelona;ES;Gothenburg;SE;Standard;Wholesale;99.42;152.84;EUR;2.0;4;Delivered
+ORD-104189;Jul 08, 2026;Hanseatic Lines;Gothenburg;SE;Cologne;DE;Standard;Retail;39.28;88.27;EUR;5.0;4;Delayed
+ORD-103909;Jul 13, 2026;baltica;Rotterdam;NL;Lyon;FR;Standard;Retail;9.22;51.92;USD;3.0;4;DELIVERED
+ORD-101754;08/02/2026;nordfrakt;Milan;IT;Krakow;PL;Standard;Retail;17.79;64.33;EUR;3.0;4;Delivered
+ORD-104012;2026-03-16 00:00:00;Baltica Logistics A/S;Gothenburg;SE;Rome;IT;Express;Retail;26.52;155.29;EUR;2.0;2;Delivered
+ORD-100965;Jan 17, 2026;vantage freight;Milan;IT;Malmo;SE;Standard;Industrial;11.37;56.97;EUR;2.0;4;Delivered
+ORD-101909;30/07/2026;nordfrakt;Gothenburg;SE; Malmo ;SE;Economy;Industrial;25.98;38.02;EUR;3.0;7;Delivered
+ORD-104936;10/08/2026;Meridian Express;Milan;IT;Berlin;DE;Express;Wholesale;36.49;132.6;EUR;2.0;2;Delivered
+ORD-100528;Jul 16, 2026;Baltica Log.;Gothenburg;SE;Madrid;ES;Standard;E-Commerce;26.07;87.88;EUR;4.0;4;Delivered
+ORD-103202;Apr 27, 2026;Hanseatic Line;Barcelona;ES;Warsaw;PL;Economy;E-Commerce;9.78;31.54;EUR;5.0;7;Delivered
+ORD-103225;28/04/2026;vantage freight;Rotterdam;NL;Cologne;DE;Standard;Retail;35.01;74.23;EUR;3.0;4;Delivered
+ORD-101968;Jun 04, 2026;Baltica Logistics A/S;Hamburg;DE;Copenhagen;DK;Standard;Retail;54.13;110.93;EUR;3.0;4;Delivered
+ORD-100027;2026-05-26 00:00:00;vantage freight;Hamburg;DE;Valencia;ES;Economy;Industrial;11.98;37.23;EUR;6.0;7;Delivered
+ORD-101673;2026-04-21; Meridian Express;Rotterdam;NL;Oslo;NO;Standard;Industrial;31.05;72.02;USD;3.0;4;Delivered
+ORD-101072;2026-04-20;Baltica Log.;Gothenburg;SE;Munich;DE;Express;Retail;17.27;131.18;EUR;2.0;2;Delivered
+ORD-104071;04/05/2026; Nordfrakt ;Gothenburg;SE;Cologne;DE;Standard;Industrial;14.3;59.12;EUR;3.0;4;Delivered
+ORD-103942;Jul 23, 2026;Meridian Express;Barcelona;ES;Marseille;FR;Economy;E-Commerce;26.18;40.65;EUR;5.0;7;Delivered
+ORD-102302;2026-01-07 00:00:00;vantage freight;Milan;IT;Paris;FR;Economy;Wholesale;12.68;40.54;EUR;5.0;7;Delivered
+ORD-103382;Aug 10, 2026;Nordfrakt AB;Hamburg;DE;Berlin;DE;Standard;Wholesale;42.9;111.74;EUR;3.0;4;Delivered
+ORD-104355;2026-05-27 00:00:00;MERIDIAN EXPRESS;Rotterdam;NL;Helsinki;FI;Express;Retail;7.1;1061.2;EUR;3.0;2;DELAYED
+ORD-100585;21/07/2026;kestrel;Barcelona;ES;Lyon;FR;Economy;Wholesale;57.66;81.22;EUR;4.0;7;Delivered
+ORD-100710;2026-03-09 00:00:00;Nordfrakt AB;Rotterdam;NL;Geneva;CH;Express;Retail;25.98;136.12;EUR;2.0;2;Delivered
+ORD-102615;2026-03-03 00:00:00;baltica;Hamburg;DE;Paris;FR;Standard;Industrial;10.58;53.32;EUR;4.0;4;Delivered
+ORD-102965;20/01/2026;Vantage Freight;Gothenburg;SE;Zurich;CH;Express;Retail;9.68;114.37;EUR;3.0;2;Delayed
+ORD-101437;Feb 23, 2026;Baltica Log.;Hamburg;DE;Lyon;FR;Standard;Retail;8.07;56.27;EUR;4.0;4;Delivered
+ORD-103830;2026-07-06 00:00:00;Vantage Freight Ltd;Milan;IT;Turin;IT;Standard;Retail;30.6;80.57;EUR;4.0;4;Delivered
+ORD-101553;2026-02-03;Nordfrakt AB;Gothenburg;SE;Warsaw;PL;Standard;E-Commerce;39.64;109.45;EUR;4.0;4;Delivered
+ORD-104287;May 18, 2026;vantage freight;Rotterdam;NL;Berlin;DE;Standard;Industrial;10.84;42.37;USD;4.0;4;Delivered
+ORD-100957;Feb 12, 2026;Baltica Logistics A/S;Rotterdam;NL;Prague;CZ;Express;Wholesale;52.64;2507.24;SEK;3.0;2;Delayed
+ORD-102619;Aug 03, 2026;HANSEATIC;Gothenburg;SE;London;GB;Standard;Retail;25.09;83.57;EUR;;4;Delayed
+ORD-102678;13/01/2026;Vantage Freight;Milan;IT;Madrid;ES;Express;Retail;26.33;1713.2;SEK;3.0;2;Delayed
+ORD-104935;Jan 20, 2026; Nordfrakt ;Gothenburg;SE;Vienna;AT;Standard;E-Commerce;15.38;56.12;EUR;4.0;4;Delivered
+ORD-101063;2026-03-23;Baltica Logistics;Milan;IT;Malmo;SE;Standard;Retail;7.77;47.25;USD;2.0;4;Delivered
+ORD-102819;Mar 24, 2026;nordfrakt;Milan;IT;Prague;CZ;Express;Wholesale;16.52;1111.11;SEK;2.0;2;Delivered
+ORD-100952;Feb 02, 2026;Vantage Freight Ltd;Gothenburg;SE; Rome ;IT;Standard;Retail;23.01;65.57;EUR;4.0;4;Delivered
+ORD-100159;2026-05-05;Kestrel Parcel;Hamburg;DE;Bergen;NO;Economy;Wholesale;30.39;62.64;USD;4.0;7;Delivered
+ORD-102770;26/02/2026; Nordfrakt ;Rotterdam;NL;Brno;CZ;Express;Industrial;8.03;101.39;EUR;2.0;2;Delivered
+ORD-100059;2026-03-10;Nordfrakt AB;Rotterdam;NL;Tampere;FI;Express;Industrial;76.12;;SEK;3.0;2;Delayed
+ORD-104636;27/05/2026;Baltica Logistics A/S;Gothenburg;SE;Paris;FR;Standard;Retail;60.77;1354.54;SEK;;4;Cancelled
+ORD-104786;Jan 05, 2026;HANSEATIC;Gothenburg;SE;Marseille;FR;Standard;Retail;56.2;82.42;EUR;4.0;4;Delivered
+ORD-100023;22/07/2026;hanseatic line;Milan;IT;Helsinki;FI;Standard;Retail;32.32;891.74;SEK;6.0;4;Delayed
+ORD-102625;2026-01-12 00:00:00;Nordfrakt;Gothenburg;SE;Stockholm;SE;Express;E-Commerce;37.33;132.3;EUR;1.0;2;Delivered
+ORD-100683;09/08/2026;Baltica Logistics;Rotterdam;NL;Frankfurt;DE;Standard;Wholesale;21.67;71.09;EUR;2.0;4;Delivered
+ORD-103603;2026-02-06;Baltica Logistics;Gothenburg;SE; Marseille ;FR;Express;Wholesale;14.65;116.57;EUR;2.0;2;Delivered
+ORD-102140;2026-03-20;vantage freight;Gothenburg;SE;Rome;IT;Standard;Industrial;61.33;1386.99;SEK;;4;Cancelled
+ORD-102056;2026-04-08 00:00:00;Nordfrakt AB;Hamburg;DE;Eindhoven;NL;Express;Wholesale;47.9;181.71;EUR;2.0;2;Delivered
+ORD-100489;2026-01-27;KESTREL PARCEL;Hamburg;DE;Turin;IT;Economy;E-Commerce;47.65;77.17;USD;7.0;7;Delivered
+ORD-102497;Jul 01, 2026;vantage freight;Milan;IT;Valencia;ES;Standard;Retail;19.46;88.1;EUR;4.0;4;Delivered
+ORD-102283;May 07, 2026;Kestrel Parcel;Gothenburg;SE;Geneva;CH;Standard;Retail;38.67;95.36;USD;6.0;4;Delayed
+ORD-100015;May 06, 2026;baltica;Hamburg;DE;Helsinki;FI;Standard;Industrial;55.65;126.85;EUR;4.0;4;Delivered
+ORD-103932;2026-03-23;Kestrel Parcel;Gothenburg;SE;Prague;CZ;Standard;Industrial;43.75;100.1;EUR;3.0;4;Delivered
+ORD-101388;Jul 03, 2026;KESTREL PARCEL;Gothenburg;SE;Zurich;CH;Express;Wholesale;3.2;85.78;EUR;2.0;2;Delivered
+ORD-104514;2026-07-14 00:00:00;Meridian Express;Milan;IT;Madrid;ES;Standard;Industrial;10.36;65.65;EUR;5.0;4;Delayed
+ORD-101588;17/06/2026;Nordfrakt;Gothenburg;SE;Frankfurt;DE;Standard;E-Commerce;8.31;46.27;EUR;3.0;4;Delivered
+ORD-101751;2026-07-01;Meridian Express;Gothenburg;SE;Rome;IT;Standard;Wholesale;15.44;51.42;EUR;;4;Delivered
+ORD-101304;2026-01-30; Meridian Express;Gothenburg;SE;Helsinki;FI;Standard;Industrial;21.69;98.93;EUR;4.0;4;Delivered
+ORD-101231;2026-04-07 00:00:00;Baltica Logistics;Gothenburg;SE;Amsterdam;NL;Economy;Industrial;45.48;56.62;EUR;5.0;7;Delivered
+ORD-100001;2026-04-29 00:00:00;Vantage;Gothenburg;SE;Aarhus;DK;Express;Retail;14.03;118.68;USD;1.0;2;Delivered
+ORD-100285;2026-07-28; Nordfrakt ;Rotterdam;NL;Geneva;CH;Standard;Retail;48.92;108.06;EUR;4.0;4;Delivered
+ORD-104828;2026-07-20 00:00:00;nordfrakt;Gothenburg;SE; Malmo ;SE;Express;Retail;24.08;129.53;USD;;2;Cancelled
+ORD-102396;2026-08-03; Nordfrakt ;Milan;IT;Valencia;ES;Standard;E-Commerce;19.15;70.86;EUR;4.0;4;Delivered
+ORD-100403;Aug 16, 2026;kestrel;Barcelona;ES;Copenhagen;DK;Standard;Wholesale;14.26;64.08;EUR;3.0;4;Delivered
+ORD-102802;26/08/2026;Vantage Freight;Milan;IT;Aarhus;DK;Standard;Industrial;35.84;73.67;EUR;2.0;4;Delivered
+ORD-104986;2026-08-13; Nordfrakt ;Rotterdam;NL;Gothenburg;SE;Standard;Retail;6.31;360.69;SEK;2.0;4;Delivered
+ORD-102023;2026-01-26;Kestrel Parcel;Rotterdam;NL;Turin;IT;Standard;E-Commerce;2.96;40.0;EUR;3.0;4;DELIVERED
+ORD-103428;04/05/2026; Nordfrakt ;Hamburg;DE;Graz;AT;Standard;Industrial;31.37;1085.79;SEK;4.0;4;Delivered
+ORD-101200;Jun 26, 2026;Vantage;Barcelona;ES;Copenhagen;DK;Standard;Industrial;56.24;125.19;EUR;3.0;4;In Transit
+ORD-104338;2026-04-13 00:00:00;Vantage Freight;Gothenburg;SE;Cologne;DE;Standard;Wholesale;53.82;104.96;EUR;3.0;4;In Transit
+ORD-101577;May 13, 2026;Kestrel Parcel;Barcelona;ES; Tampere ;FI;Standard;E-Commerce;43.79;104.9;EUR;5.0;4;Delayed
+ORD-102241;2026-03-02;hanseatic line;Milan;IT;Munich;DE;Economy;Industrial;44.7;91.1;USD;6.0;7;Delivered
+ORD-101497;May 04, 2026;Nordfrakt AB;Gothenburg;SE;Tampere;FI;Economy;Retail;29.65;55.0;EUR;6.0;7;Delivered
+ORD-102493;Jan 30, 2026;vantage freight;Gothenburg;SE;Gothenburg;SE;Express;E-Commerce;40.69;182.25;EUR;1.0;2;Delivered
+ORD-102303;Jun 26, 2026;MERIDIAN EXPRESS;Hamburg;DE;Zurich;CH;Economy;E-Commerce;5.11;33.93;USD;5.0;7;Delivered
+ORD-102499;2026-07-24;kestrel;Hamburg;DE;Warsaw;PL;Standard;Wholesale;55.94;110.14;EUR;4.0;4;Delivered
+ORD-101612;03/03/2026; Meridian Express;Rotterdam;NL;Paris;FR;Standard;Industrial;57.07;142.68;EUR;3.0;4;Delivered
+ORD-102018;31/03/2026;hanseatic line;Milan;IT;Paris;FR;Express;Wholesale;8.03;85.51;EUR;2.0;2;Delivered
+ORD-103945;07/04/2026;nordfrakt;Hamburg;DE;Valencia;ES;Economy;Industrial;29.99;641.74;SEK;7.0;7;Delivered
+ORD-104731;2026-03-12 00:00:00;Baltica Logistics;Gothenburg;SE;Vienna;AT;Standard;E-Commerce;8.65;56.62;EUR;4.0;4;Delivered
+ORD-104185;2026-01-09; Meridian Express;Gothenburg;SE;Rome;IT;Standard;Industrial;11.27;65.66;EUR;3.0;4;Delivered
+ORD-104908;May 13, 2026;baltica;Rotterdam;NL;Bergen;NO;Express;Retail;8.34;934.43;SEK;2.0;2;Delivered
+ORD-100948;03/08/2026;hanseatic line;Gothenburg;SE;Munich;DE;Express;Industrial;24.85;122.97;EUR;4.0;2;Delayed
+ORD-100510;Aug 29, 2026;Nordfrakt;Gothenburg;SE;Stockholm;SE;Standard;Wholesale;29.6;69.29;EUR;2.0;4;Delivered
+ORD-101393;Apr 13, 2026; Meridian Express;Rotterdam;NL;Vienna;AT;Express;Industrial;54.66;285.01;USD;2.0;2;Delivered
+ORD-101508;2026-06-17 00:00:00;Vantage Freight;Gothenburg;SE;Warsaw;PL;Standard;Wholesale;6.07;55.86;EUR;3.0;4;Delivered
+ORD-104518;26/03/2026;Meridian Express;Gothenburg;SE;Aarhus;DK;Express;Retail;25.88;116.79;USD;;2;Cancelled
+ORD-101331;30/03/2026;Meridian Expr;Gothenburg;SE;Turin;IT;Standard;E-Commerce;33.63;73.65;EUR;4.0;4;Delivered
+ORD-101309;2026-06-12 00:00:00;nordfrakt;Gothenburg;SE;Berlin;DE;Standard;Retail;12.64;61.01;EUR;4.0;4;Delivered
+ORD-104694;Mar 24, 2026;Kestrel Parcels AB;Hamburg;DE;Eindhoven;NL;Standard;Retail;3.33;503.86;SEK;3.0;4;Delivered
+ORD-102973;2026-08-21 00:00:00;hanseatic line;Hamburg;DE;Warsaw;PL;Standard;Industrial;40.56;90.63;EUR;6.0;4;Delayed
+ORD-103800;2026-07-20;MERIDIAN EXPRESS;Rotterdam;NL;Zurich;CH;Economy;Retail;33.1;54.22;EUR;5.0;7;Delivered
+ORD-103962;Feb 24, 2026; Nordfrakt ;Gothenburg;SE;Gothenburg;SE;Express;Retail;10.35;78.49;EUR;1.0;2;Delivered
+ORD-102669;2026-08-12 00:00:00; Meridian Express;Gothenburg;SE;Gdansk;PL;Standard;E-Commerce;15.46;60.86;EUR;4.0;4;Delivered
+ORD-103748;Jul 20, 2026;Meridian Expr;Hamburg;DE;Copenhagen;DK;Economy;Industrial;25.69;523.27;SEK;3.0;7;Delivered
+ORD-101117;Jan 16, 2026;MERIDIAN EXPRESS;Barcelona;ES;Rome;IT;Standard;E-Commerce;14.52;71.72;USD;3.0;4;Delivered
+ORD-104500;2026-03-16;hanseatic line;Gothenburg;SE;Brno;CZ;Economy;Wholesale;34.67;58.22;EUR;7.0;7;Delivered
+ORD-100696;01/04/2026;nordfrakt;Gothenburg;SE;Rome;IT;Economy;E-Commerce;8.47;537.56;SEK;5.0;7;Delivered
+ORD-103169;Jan 27, 2026; Nordfrakt ;Gothenburg;SE;Warsaw;PL;Standard;Industrial;11.16;57.08;EUR;5.0;4;Delayed
+ORD-104056;2026-06-08 00:00:00;Meridian Expr;Barcelona;ES;Rome;IT;Standard;Retail;26.78;98.94;USD;5.0;4;Delayed
+ORD-104101;2026-08-25 00:00:00;vantage freight;Hamburg;DE;Turin;IT;Standard;E-Commerce;11.9;61.82;USD;5.0;4;Delayed
+ORD-102045;Aug 27, 2026;Hanseatic Line;Hamburg;DE;Turin;IT;Express;E-Commerce;17.58;123.87;USD;3.0;2;DELAYED
+ORD-100282;2026-03-04;baltica;Rotterdam;NL;Turin;IT;Economy;Retail;9.23;51.23;USD;8.0;7;Delayed
+ORD-101811;23/02/2026; Nordfrakt ;Rotterdam;NL;Paris;FR;Economy;Retail;17.29;45.24;USD;4.0;7;Delivered
+ORD-100599;Feb 16, 2026; Nordfrakt ;Barcelona;ES;Amsterdam;NL;Express;Industrial;2.83;62.15;EUR;1.0;2;Delivered
+ORD-102918;2026-06-10; Nordfrakt ;Hamburg;DE;Cologne;DE;Economy;Retail;28.36;44.68;EUR;4.0;7;Delivered
+ORD-104064;20/04/2026;Baltica Logistics A/S;Hamburg;DE;Amsterdam;NL;Standard;Wholesale;4.15;36.38;EUR;3.0;4;In Transit
+ORD-101346;15/06/2026;nordfrakt;Rotterdam;NL;Geneva;CH;Standard;Retail;39.27;82.8;EUR;4.0;4;Delivered
+ORD-101411;Jan 05, 2026;Vantage;Hamburg;DE;Graz;AT;Standard;Wholesale;13.36;72.88;EUR;4.0;4;Delivered
+ORD-101546;13/03/2026;Baltica Logistics A/S;Gothenburg;SE;Eindhoven;NL;Express;E-Commerce;5.63;65.85;EUR;2.0;2;Delivered
+ORD-100085;2026-03-20 00:00:00;MERIDIAN EXPRESS;Gothenburg;SE;Madrid;ES;Economy;Retail;38.92;;EUR;5.0;7;Delivered
+ORD-103703;2026-07-13;Kestrel Parcel;Barcelona;ES;Munich;DE;Economy;Wholesale;43.05;59.77;EUR;6.0;7;Delivered
+ORD-101972;2026-03-10 00:00:00;Vantage Freight;Hamburg;DE;Madrid;ES;Standard;E-Commerce;39.49;107.12;EUR;5.0;4;Delayed
+ORD-102546;11/05/2026;Baltica Log.;Gothenburg;SE;Amsterdam;NL;Economy;E-Commerce;13.89;35.35;EUR;3.0;7;Delivered
+ORD-100714;2026-07-19;Nordfrakt;Gothenburg;SE;Geneva;CH;Standard;Wholesale;7.92;51.76;USD;3.0;4;Delivered
+ORD-102286;Jul 13, 2026;Baltica Logistics A/S;Gothenburg;SE;Berlin;DE;Economy;Retail;61.19;65.39;EUR;6.0;7;Delivered
+ORD-102207;Jun 04, 2026;Nordfrakt;Milan;IT;Gothenburg;SE;Economy;Industrial;44.08;57.12;USD;3.0;7;Delivered
+ORD-104997;May 25, 2026;kestrel;Rotterdam;NL; Turin ;IT;Economy;Retail;16.94;43.99;EUR;7.0;7;Delivered
+ORD-104428;Apr 28, 2026; Nordfrakt ;Gothenburg;SE;Warsaw;PL;Standard;Wholesale;64.94;130.39;EUR;3.0;4;Delivered
+ORD-104822;13/07/2026;Nordfrakt AB;Gothenburg;SE;Amsterdam;NL;Standard;Retail;18.61;751.09;SEK;2.0;4;Delivered
+ORD-102042;14/04/2026;vantage freight;Gothenburg;SE;Graz;AT;Economy;Retail;21.02;45.42;EUR;5.0;7;Delivered
+ORD-100980;2026-01-18;Meridian Expr;Rotterdam;NL; Graz ;AT;Standard;Industrial;7.78;47.11;USD;2.0;4;Delivered
+ORD-101407;23/06/2026;Kestrel Parcel;Hamburg;DE;Munich;DE;Express;Wholesale;44.24;166.56;EUR;1.0;2;Delivered
+ORD-100581;2026-06-01; Meridian Express;Rotterdam;NL;Tampere;FI;Standard;Industrial;14.76;77.54;USD;3.0;4;Delivered
+ORD-103961;Jun 15, 2026;kestrel;Milan;IT;Zurich;CH;Standard;E-Commerce;5.31;617.89;SEK;5.0;4;Delayed
+ORD-101616;May 11, 2026;nordfrakt;Gothenburg;SE;Graz;AT;Standard;Industrial;35.84;87.55;EUR;2.0;4;Delivered
+ORD-104434;Jan 15, 2026;MERIDIAN EXPRESS;Hamburg;DE;Graz;AT;Economy;Wholesale;21.01;32.97;USD;5.0;7;Delivered
+ORD-102876;Mar 02, 2026;MERIDIAN EXPRESS;Rotterdam;NL; Copenhagen ;DK;Standard;Retail;2.91;481.21;SEK;2.0;4;Delivered
+ORD-104232;27/01/2026;Vantage Freight Ltd;Gothenburg;SE;Malmo;SE;Standard;E-Commerce;52.25;1229.5;EUR;2.0;4;Delivered
+ORD-101824;29/04/2026;kestrel;Barcelona;ES;London;GB;Standard;Wholesale;43.01;104.74;EUR;3.0;4;Delivered
+ORD-101981;2026-02-05 00:00:00;hanseatic line;Hamburg;DE;Krakow;PL;Standard;Industrial;6.49;59.28;EUR;4.0;4;Delivered
+ORD-103575;2026-03-12;Kestrel Parcels AB;Milan;IT;Berlin;DE;Express;Retail;44.45;202.73;EUR;2.0;2;DELIVERED
+ORD-104753;2026-06-22;nordfrakt;Gothenburg;SE;Gothenburg;SE;Standard;Wholesale;14.81;43.46;USD;2.0;4;Delivered
+ORD-100675;2026-04-03;nordfrakt;Barcelona;ES;Lyon;FR;Express;Industrial;9.09;79.34;EUR;2.0;2;Delivered
+ORD-100925;2026-08-03;Vantage;Gothenburg;SE;Amsterdam;NL;Express;Wholesale;33.77;170.89;USD;2.0;2;Delivered
+ORD-102941;Jul 28, 2026;vantage freight;Hamburg;DE;Copenhagen;DK;Express;Industrial;11.73;86.52;USD;1.0;2;Delivered
+ORD-100671;02/02/2026;Baltica Logistics;Milan;IT;Warsaw;PL;Economy;Wholesale;23.67;55.52;EUR;7.0;7;Delivered
+ORD-101199;2026-02-04;Hanseatic Lines;Rotterdam;NL;Gothenburg;SE;Standard;Retail;30.86;66.33;EUR;3.0;4;Delivered
+ORD-102229;2026-08-21;HANSEATIC;Gothenburg;SE;Turin;IT;Standard;Wholesale;25.49;74.47;EUR;7.0;4;Delayed
+ORD-102690;Apr 06, 2026; Meridian Express;Rotterdam;NL;Berlin;DE;Standard;Industrial;45.8;86.28;EUR;2.0;4;Delivered
+ORD-102579;2026-01-06 00:00:00; Nordfrakt ;Gothenburg;SE;Graz;AT;Standard;E-Commerce;31.59;89.04;EUR;4.0;4;Delivered
+ORD-103479;2026-05-04;Meridian Expr;Milan;IT;Cologne;DE;Standard;Retail;7.39;46.99;EUR;2.0;4;Delivered
+ORD-103545;2026-02-10;Baltica Logistics A/S;Hamburg;DE;Eindhoven;NL;Standard;Retail;28.3;90.27;USD;3.0;4;Delivered
+ORD-104543;Feb 02, 2026;kestrel;Gothenburg;SE;Cologne;DE;Standard;Industrial;9.21;57.87;EUR;5.0;4;Delayed
+ORD-104437;03/08/2026;Nordfrakt;Barcelona;ES;Vienna;AT;Standard;Industrial;11.33;64.89;USD;;4;Delivered
+ORD-100692;2026-07-25;baltica;Hamburg;DE;Marseille;FR;Economy;Industrial;46.11;77.2;EUR;4.0;7;Delivered
+ORD-102982;May 14, 2026; Meridian Express;Rotterdam;NL;Munich;DE;Express;E-Commerce;27.7;125.57;EUR;2.0;2;Delivered
+ORD-103838;2026-08-09 00:00:00;Baltica Logistics;Hamburg;DE;Frankfurt;DE;Standard;E-Commerce;68.45;16878.800000000003;SEK;3.0;4;Delivered
+ORD-103325;2026-05-04 00:00:00;Vantage Freight Ltd;Hamburg;DE;Copenhagen;DK;Standard;E-Commerce;16.32;48.46;EUR;3.0;4;Delivered
+ORD-100152;2026-07-17 00:00:00;Meridian Expr;Rotterdam;NL;Krakow;PL;Standard;Retail;78.84;161.76;EUR;4.0;4;Delivered
+ORD-103889;May 27, 2026; Meridian Express;Barcelona;ES;Brno;CZ;Standard;Retail;60.14;1591.06;SEK;4.0;4;DELIVERED
+ORD-104614;2026-01-02;KESTREL PARCEL;Barcelona;ES;Munich;DE;Economy;Retail;20.79;43.45;EUR;6.0;7;Delivered
+ORD-102008;May 07, 2026; Nordfrakt ;Gothenburg;SE;Tampere;FI;Standard;Retail;9.57;65.78;EUR;4.0;4;Delivered
+ORD-100478;2026-03-02;nordfrakt;Gothenburg;SE;Prague;CZ;Economy;E-Commerce;25.38;48.94;EUR;6.0;7;Delivered
+ORD-101666;17/04/2026;Kestrel Parcel;Gothenburg;SE;Rome;IT;Standard;Retail;16.61;59.05;EUR;4.0;4;Delivered
+ORD-103198;2026-08-20;Nordfrakt;Milan;IT; Oslo ;NO;Express;Retail;19.95;123.22;EUR;2.0;2;Delivered
+ORD-103312;24/07/2026;hanseatic line;Milan;IT;Eindhoven;NL;Express;Retail;67.53;236.13;EUR;2.0;2;Delivered
+ORD-103056;May 15, 2026;Kestrel Parcels AB;Hamburg;DE; Tampere ;FI;Standard;E-Commerce;18.58;55.6;USD;5.0;4;Delayed
+ORD-102375;2026-08-26 00:00:00;Baltica Logistics;Milan;IT;Oslo;NO;Express;Wholesale;75.6;262.95;EUR;2.0;2;Delivered
+ORD-104532;Mar 23, 2026;baltica;Rotterdam;NL;Malmo;SE;Standard;Retail;11.99;60.14;EUR;2.0;4;Delivered
+ORD-100080;30/07/2026;Kestrel Parcel;Hamburg;DE;Lyon;FR;Economy;Wholesale;3.92;30.16;EUR;7.0;7;Delivered
+ORD-101896;2026-01-10 00:00:00;Kestrel Parcels AB;Hamburg;DE;London;GB;Economy;E-Commerce;23.09;45.8;EUR;8.0;7;Delayed
+ORD-102235;2026-05-11 00:00:00;Vantage Freight Ltd;Milan;IT;Helsinki;FI;Express;Wholesale;4.78;82.63;EUR;2.0;2;Delivered
+ORD-100246;20/04/2026;Kestrel Parcels AB;Rotterdam;NL;Stockholm;SE;Standard;Wholesale;24.08;67.11;EUR;2.0;4;Delivered
+ORD-104940;2026-04-06 00:00:00;Vantage Freight;Gothenburg;SE;Bergen;NO;Standard;Wholesale;38.06;108.54;EUR;4.0;4;Delivered
+ORD-103374;2026-03-05 00:00:00;Kestrel Parcel;Hamburg;DE;Berlin;DE;Express;Wholesale;10.89;1226.89;SEK;;2;Delivered
+ORD-104122;Aug 24, 2026;Hanseatic Line;Gothenburg;SE;Zurich;CH;Express;Retail;34.74;161.99;EUR;4.0;2;Delayed
+ORD-102331;16/06/2026;Baltica Log.;Gothenburg;SE;Bergen;NO;Standard;Retail;78.48;1692.31;SEK;3.0;4;Delivered
+ORD-101345;Aug 31, 2026;MERIDIAN EXPRESS;Gothenburg;SE;Amsterdam;NL;Economy;Wholesale;19.09;62.91;EUR;3.0;7;Delivered
+ORD-100591;Jul 09, 2026;Nordfrakt;Gothenburg;SE;Zurich;CH;Standard;Industrial;13.92;69.36;USD;4.0;4;Delivered
+ORD-100122;23/02/2026;Vantage Freight Ltd;Barcelona;ES;Manchester;GB;Standard;E-Commerce;15.37;67.33;EUR;3.0;4;Delivered
+ORD-103120;06/02/2026;vantage freight;Gothenburg;SE;Malmo;SE;Express;E-Commerce;91.51;231.59;EUR;1.0;2;Delivered
+ORD-101534;2026-05-25 00:00:00;nordfrakt;Milan;IT;Zurich;CH;Standard;E-Commerce;43.74;102.59;EUR;4.0;4;Delivered
+ORD-102100;15/07/2026;nordfrakt;Gothenburg;SE;Marseille;FR;Standard;Wholesale;12.08;731.77;SEK;;4;Delivered
+ORD-104523;Aug 24, 2026;Meridian Expr;Rotterdam;NL;Paris;FR;Standard;Industrial;9.31;49.79;EUR;2.0;4;Delivered
+ORD-102694;2026-07-27;nordfrakt;Hamburg;DE;Munich;DE;Standard;Wholesale;55.43;109.45;EUR;2.0;4;DELIVERED
+ORD-100756;09/04/2026;Hanseatic Lines;Hamburg;DE;Gothenburg;SE;Standard;E-Commerce;12.19;61.84;EUR;3.0;4;Delivered
+ORD-103749;2026-07-11;Meridian Express;Gothenburg;SE;Warsaw;PL;Economy;Industrial;17.43;38.83;EUR;7.0;7;Delivered
+ORD-103156;28/04/2026;hanseatic line;Rotterdam;NL;Berlin;DE;Express;Wholesale;22.82;161.67;USD;3.0;2;Delayed
+ORD-102960;2026-07-20 00:00:00;Vantage Freight Ltd;Gothenburg;SE;Bergen;NO;Express;Retail;30.6;135.27;EUR;1.0;2;Delivered
+ORD-100061;2026-04-13 00:00:00;vantage freight;Hamburg;DE;Brno;CZ;Economy;Wholesale;28.28;814.41;SEK;5.0;7;Delivered
+ORD-103454;May 25, 2026;MERIDIAN EXPRESS;Milan;IT;London;GB;Standard;Wholesale;11.97;646.68;SEK;3.0;4;Delivered
+ORD-100865;19/03/2026;Meridian Express;Gothenburg;SE;Amsterdam;NL;Standard;Wholesale;38.66;96.47;EUR;2.0;4;Delivered
+ORD-104752;2026-05-18 00:00:00;baltica;Barcelona;ES;Bergen;NO;Economy;Industrial;33.92;58.5;EUR;5.0;7;Delivered
+ORD-103614;2026-04-17;KESTREL PARCEL;Rotterdam;NL;Aarhus;DK;Standard;Industrial;14.99;42.25;USD;2.0;4;Delivered
+ORD-100741;2026-04-23 00:00:00;Kestrel Parcels AB;Rotterdam;NL;Geneva;CH;Economy;Wholesale;22.99;678.05;SEK;5.0;7;Delivered
+ORD-101605;Jul 02, 2026;Vantage Freight;Gothenburg;SE;Geneva;CH;Standard;E-Commerce;52.73;89.35;EUR;5.0;4;Delayed
+ORD-102180;2026-03-20;Meridian Express;Milan;IT;Copenhagen;DK;Economy;Industrial;22.68;48.72;USD;3.0;7;Delivered
+ORD-104834;2026-08-19 00:00:00;Nordfrakt AB;Gothenburg;SE;Gothenburg;SE;Standard;Retail;13.77;53.01;EUR;2.0;4;Delivered
+ORD-104131;2026-07-24;Nordfrakt;Milan;IT;Aarhus;DK;Express;Industrial;70.06;3022.95;SEK;2.0;2;Delivered
+ORD-103029;06/07/2026;Nordfrakt AB;Gothenburg;SE;Frankfurt;DE;Economy;Industrial;21.96;40.64;EUR;3.0;7;Delivered
+ORD-103281;2026-04-20;Meridian Expr;Rotterdam;NL;Paris;FR;Economy;Wholesale;24.38;52.44;USD;5.0;7;Delivered
+ORD-102438;2026-06-08;nordfrakt;Milan;IT;Malmo;SE;Economy;Retail;35.68;580.36;SEK;;7;Delivered
+ORD-101149;2026-06-11;nordfrakt;Barcelona;ES;Stockholm;SE;Express;E-Commerce;18.79;86.71;EUR;1.0;2;Delivered
+ORD-101160;15/01/2026;Vantage;Gothenburg;SE;Helsinki;FI;Standard;Wholesale;13.38;67.62;USD;4.0;4;Delivered
+ORD-103904;2026-06-23;Baltica Logistics A/S;Gothenburg;SE;Oslo;NO;Standard;E-Commerce;36.39;89.27;EUR;3.0;4;Delivered
+ORD-100256;Mar 09, 2026;Kestrel Parcels AB;Barcelona;ES;Krakow;PL;Express;Wholesale;2.14;88.65;EUR;3.0;2;Delayed
+ORD-102598;2026-08-14;Nordfrakt AB;Gothenburg;SE;Berlin;DE;Economy;E-Commerce;34.84;69.76;EUR;5.0;7;Delivered
+ORD-102946;2026-01-19; Meridian Express;Rotterdam;NL;Rome;IT;Express;E-Commerce;22.3;137.05;EUR;2.0;2;Delivered
+ORD-102337;2026-05-25;Vantage Freight Ltd;Hamburg;DE;Krakow;PL;Economy;Wholesale;36.6;616.25;SEK;6.0;7;Delivered
+ORD-104495;2026-02-08 00:00:00; Nordfrakt ;Gothenburg;SE;Aarhus;DK;Standard;E-Commerce;32.83;88.62;EUR;2.0;4;DELIVERED
+ORD-102101;02/03/2026;Baltica Log.;Rotterdam;NL;Bergen;NO;Standard;Retail;44.54;82.97;EUR;3.0;4;Delivered
+ORD-104169;06/03/2026;Nordfrakt;Gothenburg;SE;Malmo;SE;Standard;E-Commerce;26.45;58.43;EUR;2.0;4;Delivered
+ORD-103407;16/02/2026; Nordfrakt ;Gothenburg;SE;Gothenburg;SE;Standard;Industrial;52.38;79.91;EUR;1.0;4;Delivered
+ORD-100557;2026-06-24;Vantage;Rotterdam;NL;Prague;CZ;Economy;Wholesale;34.07;63.62;EUR;3.0;7;Delivered
+ORD-103220;2026-03-20;baltica;Hamburg;DE;Prague;CZ;Standard;Retail;8.93;59.07;EUR;3.0;4;Delivered
+ORD-104214;Mar 12, 2026;hanseatic line;Barcelona;ES;Manchester;GB;Express;Industrial;74.27;227.59;USD;3.0;2;Delayed
+ORD-100608;13/08/2026; Nordfrakt ;Gothenburg;SE;Cologne;DE;Express;Industrial;40.4;156.7;EUR;2.0;2;Delivered
+ORD-102096;29/07/2026;Nordfrakt;Gothenburg;SE;Oslo;NO;Standard;E-Commerce;28.65;72.45;EUR;3.0;4;Delivered
+ORD-100209;May 04, 2026; Nordfrakt ;Hamburg;DE;Stockholm;SE;Express;E-Commerce;34.85;169.34;USD;1.0;2;Delivered
+ORD-103539;2026-05-29 00:00:00;Vantage;Barcelona;ES;Warsaw;PL;Standard;E-Commerce;43.82;110.44;EUR;4.0;4;Delivered
+ORD-101590;09/04/2026;Vantage;Milan;IT;Rome;IT;Standard;Retail;17.88;74.19;EUR;4.0;4;Delivered
+ORD-101147;27/04/2026;Nordfrakt;Gothenburg;SE;Paris;FR;Standard;Retail;4.81;49.42;EUR;3.0;4;Delivered
+ORD-103427;Jun 29, 2026;kestrel;Gothenburg;SE;Manchester;GB;Express;E-Commerce;50.34;192.25;EUR;2.0;2;Delivered
+ORD-103206;31/08/2026;Nordfrakt AB;Gothenburg;SE;Zurich;CH;Express;Wholesale;84.45;257.39;EUR;2.0;2;Delivered
+ORD-101633;2026-06-27 00:00:00;Nordfrakt AB;Hamburg;DE;Gdansk;PL;Express;E-Commerce;11.15;116.18;EUR;2.0;2;Delivered
+ORD-100597;May 04, 2026;MERIDIAN EXPRESS;Gothenburg;SE; Aarhus ;DK;Standard;Wholesale;21.17;43.11;EUR;3.0;4;Delivered
+ORD-101656;09/06/2026;Nordfrakt;Hamburg;DE;Aarhus;DK;Express;E-Commerce;59.8;161.55;EUR;2.0;2;Delivered
+ORD-103297;2026-07-13 00:00:00;Vantage Freight;Gothenburg;SE;Stockholm;SE;Express;E-Commerce;21.66;95.95;USD;2.0;2;Delivered
+ORD-104207;Jul 28, 2026;Nordfrakt AB;Rotterdam;NL;Brno;CZ;Standard;E-Commerce;35.21;109.71;USD;3.0;4;Delivered
+ORD-102324;14/04/2026;Vantage Freight;Rotterdam;NL; Graz ;AT;Economy;Retail;18.33;50.4;EUR;5.0;7;Delivered
+ORD-104291;24/07/2026;kestrel;Rotterdam;NL;Eindhoven;NL;Express;E-Commerce;7.24;70.13;EUR;2.0;2;Delivered
+ORD-102009;2026-02-11;nordfrakt;Barcelona;ES;London;GB;Standard;Retail;38.69;1253.96;SEK;4.0;4;Delivered
+ORD-103657;Jul 20, 2026;vantage freight;Barcelona;ES;Copenhagen;DK;Standard;E-Commerce;31.4;92.13;EUR;2.0;4;Delivered
+ORD-100693;Aug 03, 2026;Nordfrakt AB;Rotterdam;NL;Frankfurt;DE;Economy;Wholesale;11.24;35.63;EUR;4.0;7;Delivered
+ORD-104545;2026-04-20 00:00:00;Baltica Log.;Milan;IT;Marseille;FR;Economy;Wholesale;33.73;52.75;EUR;5.0;7;Delivered
+ORD-101369;Feb 12, 2026;Baltica Log.;Milan;IT;Munich;DE;Standard;Retail;51.22;138.7;EUR;3.0;4;Delivered
+ORD-104088;2026-08-24 00:00:00;nordfrakt;Rotterdam;NL;Gothenburg;SE;Economy;Wholesale;30.57;55.44;USD;2.0;7;Delivered
+ORD-102205;12/05/2026;kestrel;Barcelona;ES;Munich;DE;Economy;Retail;24.3;42.22;EUR;6.0;7;Delivered
+ORD-100656;Apr 27, 2026;MERIDIAN EXPRESS;Hamburg;DE;Gdansk;PL;Economy;Retail;31.23;58.0;EUR;5.0;7;Delivered
+ORD-103855;2026-03-26;nordfrakt;Gothenburg;SE; Helsinki ;FI;Standard;Wholesale;4.33;42.7;EUR;4.0;4;Delivered
+ORD-102846;2026-06-17;Kestrel Parcels AB;Gothenburg;SE;Gothenburg;SE;Economy;Industrial;12.15;38.25;USD;4.0;7;Delivered
+ORD-102980;Mar 30, 2026;nordfrakt;Rotterdam;NL;Vienna;AT;Economy;Wholesale;6.66;38.61;EUR;5.0;7;Delivered
+ORD-104418;Mar 27, 2026;Vantage Freight;Gothenburg;SE; Brno ;CZ;Economy;Industrial;27.38;59.3;EUR;5.0;7;Delivered
+ORD-100867;2026-06-04 00:00:00;MERIDIAN EXPRESS;Barcelona;ES;Frankfurt;DE;Standard;Wholesale;53.14;109.41;EUR;2.0;4;Delivered
+ORD-102507;Feb 04, 2026;Hanseatic Lines;Gothenburg;SE;Madrid;ES;Economy;Retail;18.15;58.95;USD;10.0;7;Delayed
+ORD-100457;2026-02-12;Vantage;Gothenburg;SE;Madrid;ES;Standard;E-Commerce;27.99;108.84;EUR;4.0;4;Delivered
+ORD-103607;2026-03-16;Meridian Express;Gothenburg;SE;Aarhus;DK;Standard;Retail;6.75;;SEK;3.0;4;Delivered
+ORD-102808;2026-05-11 00:00:00;MERIDIAN EXPRESS;Milan;IT;Brno;CZ;Express;Retail;38.93;203.22;EUR;3.0;2;Delayed
+ORD-103518;2026-03-09 00:00:00; Nordfrakt ;Gothenburg;SE;Lyon;FR;Standard;Wholesale;19.84;69.64;EUR;4.0;4;Delivered
+ORD-100733;Apr 30, 2026;MERIDIAN EXPRESS;Hamburg;DE;Gothenburg;SE;Standard;E-Commerce;34.1;89.61;USD;2.0;4;In Transit
+ORD-104863;30/03/2026;Nordfrakt;Gothenburg;SE;Gothenburg;SE;Standard;Wholesale;9.43;45.91;USD;3.0;4;Delivered
+ORD-102279;Mar 05, 2026;Vantage Freight Ltd;Gothenburg;SE;Amsterdam;NL;Economy;E-Commerce;20.35;31.28;EUR;4.0;7;Delivered
+ORD-103751;2026-05-13;Meridian Express;Rotterdam;NL;Rome;IT;Standard;Retail;13.63;71.57;EUR;4.0;4;Delivered
+ORD-100642;Jun 12, 2026; Nordfrakt ;Gothenburg;SE;Cologne;DE;Standard;Wholesale;9.27;45.53;EUR;3.0;4;Delivered
+ORD-101066;Jul 22, 2026;Vantage Freight;Hamburg;DE;Graz;AT;Standard;Wholesale;36.66;103.13;USD;3.0;4;Delivered
+ORD-103646;16/02/2026;vantage freight;Gothenburg;SE;Graz;AT;Economy;E-Commerce;42.6;;EUR;5.0;7;Delivered
+ORD-100781;Feb 13, 2026;Kestrel Parcel;Rotterdam;NL;Gdansk;PL;Economy;E-Commerce;23.72;53.12;EUR;7.0;7;Delivered
+ORD-100534;2026-01-12 00:00:00;Baltica Logistics;Hamburg;DE;Amsterdam;NL;Standard;E-Commerce;51.34;112.96;EUR;3.0;4;Delivered
+ORD-103796;13/03/2026;Hanseatic Line;Gothenburg;SE;Graz;AT;Standard;E-Commerce;8.89;57.72;EUR;6.0;4;Delayed
+ORD-104804;Mar 16, 2026;Kestrel Parcel;Hamburg;DE;Oslo;NO;Standard;Wholesale;57.24;100.43;EUR;4.0;4;Delivered
+ORD-104910;03/08/2026; Nordfrakt ;Rotterdam;NL;Stockholm;SE;Express;Retail;20.23;111.63;EUR;1.0;2;Delivered
+ORD-102861;2026-07-24 00:00:00;Nordfrakt AB;Rotterdam;NL;Turin;IT;Economy;Wholesale;23.73;53.07;EUR;6.0;7;Delivered
+ORD-100316;2026-04-06 00:00:00;Nordfrakt;Gothenburg;SE;Marseille;FR;Standard;Retail;25.64;94.43;USD;2.0;4;Delivered
+ORD-102197;Jun 16, 2026; Nordfrakt ;Gothenburg;SE;Bergen;NO;Standard;Wholesale;12.31;51.93;EUR;3.0;4;Delivered
+ORD-104801;22/01/2026;MERIDIAN EXPRESS;Rotterdam;NL;Warsaw;PL;Standard;Industrial;37.31;115.26;EUR;4.0;4;Delivered
+ORD-104674;Jun 01, 2026;nordfrakt;Barcelona;ES;Zurich;CH;Standard;Retail;26.1;755.46;SEK;2.0;4;Delivered
+ORD-101692;2026-02-24;Meridian Express;Gothenburg;SE; Zurich ;CH;Standard;E-Commerce;25.33;75.82;EUR;3.0;4;Delivered
+ORD-103876;Mar 17, 2026;Meridian Expr;Gothenburg;SE;Eindhoven;NL;Standard;Retail;29.6;53.16;EUR;2.0;4;Delivered
+ORD-100894;2026-04-16;Hanseatic Line;Gothenburg;SE;Malmo;SE;Standard;Wholesale;16.56;50.73;EUR;3.0;4;Delivered
+ORD-102122;14/01/2026; Meridian Express;Barcelona;ES;Bergen;NO;Standard;Industrial;89.84;169.56;EUR;3.0;4;Delivered
+ORD-101259;2026-05-15 00:00:00;Vantage;Gothenburg;SE;Malmo;SE;Economy;E-Commerce;12.58;37.19;EUR;3.0;7;Delivered
+ORD-100809;Aug 30, 2026;Baltica Logistics A/S;Rotterdam;NL;Turin;IT;Standard;Wholesale;14.29;51.35;EUR;5.0;4;Delayed
+ORD-101878;Apr 03, 2026;Kestrel Parcel;Milan;IT;Copenhagen;DK;Express;Industrial;5.84;85.8;EUR;2.0;2;Delivered
+ORD-102879;Aug 19, 2026;Nordfrakt;Rotterdam;NL;Frankfurt;DE;Standard;E-Commerce;56.29;124.0;EUR;3.0;4;Delivered
+ORD-100107;01/03/2026;Vantage;Milan;IT;Frankfurt;DE;Express;Wholesale;67.47;231.67;USD;2.0;2;Delivered
+ORD-104316;Aug 20, 2026;Baltica Log.;Barcelona;ES;Krakow;PL;Standard;E-Commerce;11.22;72.79;USD;3.0;4;Delivered
+ORD-101532;2026-07-27;MERIDIAN EXPRESS;Rotterdam;NL;Zurich;CH;Economy;E-Commerce;35.03;54.52;EUR;6.0;7;Delivered
+ORD-101855;2026-06-11 00:00:00;Baltica Logistics;Gothenburg;SE;Madrid;ES;Standard;Industrial;8.83;691.72;SEK;6.0;4;Delayed
+ORD-100211;2026-03-30 00:00:00;Baltica Logistics;Milan;IT;Zurich;CH;Standard;Retail;33.52;72.92;EUR;3.0;4;DELIVERED
+ORD-103147;03/06/2026;Nordfrakt AB;Milan;IT;London;GB;Standard;Industrial;17.84;56.85;EUR;3.0;4;Delivered
+ORD-102256;2026-05-12 00:00:00;MERIDIAN EXPRESS;Rotterdam;NL;Turin;IT;Standard;Industrial;23.75;72.11;EUR;;4;Delivered
+ORD-103633;Apr 22, 2026;Baltica Logistics;Gothenburg;SE;Frankfurt;DE;Standard;Industrial;20.23;62.43;USD;3.0;4;In Transit
+ORD-100771;2026-08-24; Meridian Express;Rotterdam;NL;Eindhoven;NL;Standard;Wholesale;46.34;1326.25;SEK;3.0;4;Delivered
+ORD-103587;2026-03-16;MERIDIAN EXPRESS;Hamburg;DE;Rome;IT;Express;Industrial;18.89;135.7;EUR;3.0;2;Delayed
+ORD-101249;19/08/2026;Nordfrakt AB;Gothenburg;SE;Berlin;DE;Standard;Wholesale;14.05;46.45;EUR;3.0;4;Delivered
+ORD-101860;13/04/2026;Kestrel Parcel;Barcelona;ES;Zurich;CH;Standard;Wholesale;26.75;66.57;EUR;5.0;4;DELAYED
+ORD-102672;11/06/2026;Vantage;Gothenburg;SE;Valencia;ES;Standard;Industrial;21.79;87.33;EUR;4.0;4;Delivered
+ORD-100851;2026-05-15 00:00:00;MERIDIAN EXPRESS;Gothenburg;SE;Malmo;SE;Economy;Wholesale;26.31;30.0;EUR;2.0;7;Delivered
+ORD-101316;2026-03-25 00:00:00;Meridian Express;Hamburg;DE;Paris;FR;Standard;Retail;23.54;771.62;SEK;2.0;4;Delivered
+ORD-103833;2026-02-26;Nordfrakt AB;Milan;IT;Amsterdam;NL;Express;Wholesale;10.87;85.07;EUR;1.0;2;Delivered
+ORD-101823;2026-06-25 00:00:00;Baltica Log.;Rotterdam;NL;Zurich;CH;Standard;Industrial;4.59;45.45;EUR;4.0;4;Delivered
+ORD-101053;2026-08-10 00:00:00;hanseatic line;Gothenburg;SE;Lyon;FR;Express;E-Commerce;27.64;124.07;EUR;3.0;2;DELAYED
+ORD-100475;2026-05-05;Nordfrakt AB;Gothenburg;SE;Aarhus;DK;Standard;Wholesale;40.93;96.28;EUR;2.0;4;Delivered
+ORD-103711;Aug 31, 2026;Kestrel Parcels AB;Rotterdam;NL;Paris;FR;Standard;Wholesale;36.02;81.7;EUR;3.0;4;Delivered
+ORD-103146;Feb 16, 2026;HANSEATIC;Gothenburg;SE;Vienna;AT;Standard;Retail;2.07;48.15;EUR;6.0;4;Delayed
+ORD-100335;May 18, 2026; Nordfrakt ;Gothenburg;SE;Malmo;SE;Standard;Wholesale;3.41;34.81;EUR;1.0;4;Delivered
+ORD-103662;2026-08-14 00:00:00;Baltica Logistics;Gothenburg;SE;Valencia;ES;Standard;Retail;15.2;70.92;USD;6.0;4;Delayed
+ORD-100088;2026-04-27 00:00:00;Baltica Log.;Barcelona;ES;Marseille;FR;Express;Wholesale;17.08;115.41;EUR;2.0;2;Delivered
+ORD-100874;2026-03-18 00:00:00;vantage freight;Hamburg;DE;Marseille;FR;Standard;Wholesale;18.75;59.94;EUR;3.0;4;Delivered
+ORD-103000;2026-05-04;MERIDIAN EXPRESS;Rotterdam;NL;Malmo;SE;Express;Retail;36.27;133.77;EUR;1.0;2;Delivered
+ORD-104998;09/03/2026;Vantage Freight;Rotterdam;NL;Lyon;FR;Standard;Wholesale;65.66;99.54;EUR;3.0;4;Delivered
+ORD-104913;2026-01-27;Kestrel Parcels AB;Gothenburg;SE;Frankfurt;DE;Express;Retail;27.65;133.01;EUR;2.0;2;Delivered
+ORD-100319;26/04/2026;Kestrel Parcels AB;Hamburg;DE;Turin;IT;Economy;Industrial;67.18;1165.52;SEK;5.0;7;Delivered
+ORD-103246;2026-04-26 00:00:00;vantage freight;Rotterdam;NL;Amsterdam;NL;Standard;Industrial;7.53;54.99;USD;3.0;4;Delivered
+ORD-104868;20/07/2026;vantage freight;Hamburg;DE;Rome;IT;Standard;E-Commerce;24.37;875.61;SEK;5.0;4;Delayed
+ORD-101750;27/07/2026; Nordfrakt ;Rotterdam;NL;Amsterdam;NL;Standard;Industrial;5.66;31.06;EUR;3.0;4;DELIVERED
+ORD-103917;Jun 10, 2026;vantage freight;Hamburg;DE;Zurich;CH;Economy;Retail;20.0;51.22;EUR;5.0;7;Delivered
+ORD-102064;19/01/2026;Nordfrakt AB;Rotterdam;NL;Vienna;AT;Express;Industrial;20.83;127.35;EUR;2.0;2;Delivered
+ORD-102964;2026-04-07 00:00:00;baltica;Gothenburg;SE;Copenhagen;DK;Standard;Wholesale;59.54;116.73;EUR;3.0;4;Delivered
+ORD-100641;2026-07-17 00:00:00; Meridian Express;Rotterdam;NL;Amsterdam;NL;Standard;Industrial;2.99;38.45;EUR;2.0;4;Delivered
+ORD-101976;2026-07-27;Meridian Express;Hamburg;DE;Copenhagen;DK;Express;E-Commerce;24.12;95.63;EUR;2.0;2;Delivered
+ORD-101097;2026-04-20;vantage freight;Gothenburg;SE;Berlin;DE;Economy;Wholesale;29.88;51.73;EUR;3.0;7;Delivered
+ORD-104692;2026-08-26 00:00:00;Baltica Logistics A/S;Barcelona;ES;Zurich;CH;Standard;Industrial;53.42;138.61;USD;4.0;4;Delivered
+ORD-101392;2026-08-23;Meridian Expr;Rotterdam;NL;Graz;AT;Standard;Retail;38.63;105.1;USD;3.0;4;Delivered
+ORD-104231;Jul 23, 2026;Nordfrakt AB;Gothenburg;SE;Zurich;CH;Economy;E-Commerce;14.26;39.36;USD;6.0;7;Delivered
+ORD-102574;2026-04-29;Vantage Freight;Milan;IT;Brno;CZ;Standard;Wholesale;7.28;54.69;EUR;2.0;4;Delivered
+ORD-102135;2026-03-12 00:00:00; Meridian Express;Milan;IT;Helsinki;FI;Standard;E-Commerce;20.4;78.0;USD;3.0;4;Delivered
+ORD-103729;2026-02-16;Vantage Freight Ltd;Hamburg;DE;Turin;IT;Standard;Retail;51.14;114.44;EUR;3.0;4;Delivered
+ORD-100148;2026-05-26; Nordfrakt ;Gothenburg;SE;Rome;IT;Standard;E-Commerce;33.25;99.19;EUR;4.0;4;Delivered
+ORD-100303;2026-07-06;Vantage;Gothenburg;SE;Oslo;NO;Economy;Industrial;15.35;38.45;USD;5.0;7;In Transit
+ORD-104789;2026-01-21;MERIDIAN EXPRESS;Gothenburg;SE; Madrid ;ES;Standard;Retail;36.48;98.06;USD;5.0;4;DELAYED
+ORD-102637;2026-04-13 00:00:00;Vantage;Rotterdam;NL;Munich;DE;Standard;Retail;14.15;47.43;EUR;3.0;4;Delivered
+ORD-104294;2026-07-22;MERIDIAN EXPRESS;Gothenburg;SE;Prague;CZ;Standard;Wholesale;30.45;92.38;EUR;4.0;4;Delivered
+ORD-103842;2026-01-02 00:00:00;vantage freight;Gothenburg;SE;Geneva;CH;Standard;E-Commerce;25.13;71.3;EUR;4.0;4;Delivered
+ORD-104456;19/01/2026;Vantage;Gothenburg;SE;Bergen;NO;Standard;Retail;31.37;83.37;EUR;3.0;4;Delivered
+ORD-100529;2026-07-20 00:00:00;Meridian Express;Hamburg;DE;Amsterdam;NL;Standard;Wholesale;12.37;57.51;EUR;2.0;4;Delivered
+ORD-100483;May 12, 2026;Vantage Freight;Hamburg;DE;Manchester;GB;Economy;Industrial;16.06;513.43;SEK;4.0;7;Delivered
+ORD-101280;Apr 13, 2026;Kestrel Parcels AB;Barcelona;ES;Cologne;DE;Standard;E-Commerce;19.95;75.54;EUR;4.0;4;Delivered
+ORD-103680;2026-03-25 00:00:00;Meridian Express;Hamburg;DE;Frankfurt;DE;Standard;E-Commerce;28.9;72.45;EUR;3.0;4;Delivered
+ORD-102362;11/08/2026; Meridian Express;Hamburg;DE;Valencia;ES;Standard;Retail;28.47;101.03;EUR;5.0;4;Delayed
+ORD-104856;Jun 08, 2026;Vantage;Gothenburg;SE;Marseille;FR;Economy;Industrial;41.34;51.41;EUR;4.0;7;Delivered
+ORD-101529;2026-07-20 00:00:00; Meridian Express;Hamburg;DE;Vienna;AT;Economy;Retail;7.2;33.66;EUR;6.0;7;Delivered
+ORD-100685;14/05/2026;Nordfrakt;Barcelona;ES;Warsaw;PL;Standard;Wholesale;9.32;52.58;EUR;4.0;4;Delivered
+ORD-101551;2026-06-12; Nordfrakt ;Rotterdam;NL;Stockholm;SE;Economy;Retail;13.58;29.05;EUR;3.0;7;DELIVERED
+ORD-104700;01/07/2026;Meridian Expr;Hamburg;DE;Aarhus;DK;Express;Industrial;19.68;114.1;EUR;1.0;2;Delivered
+ORD-102689;Aug 24, 2026; Nordfrakt ;Hamburg;DE;Paris;FR;Express;Retail;7.92;1161.97;SEK;2.0;2;Delivered
+ORD-101446;Jul 28, 2026;Nordfrakt;Rotterdam;NL;Madrid;ES;Standard;Industrial;3.35;46.17;EUR;4.0;4;Delivered
+ORD-100310;2026-03-02;Vantage Freight Ltd;Barcelona;ES;Malmo;SE;Standard;Industrial;19.05;64.38;EUR;2.0;4;In Transit
+ORD-100815;Jun 03, 2026;hanseatic line;Rotterdam;NL;Madrid;ES;Express;Wholesale;8.07;132.03;USD;4.0;2;Delayed
+ORD-102266;2026-03-11;Baltica Logistics A/S;Gothenburg;SE;Valencia;ES;Standard;Wholesale;35.89;88.04;EUR;5.0;4;Delayed
+ORD-104642;06/08/2026; Nordfrakt ;Milan;IT;Gdansk;PL;Standard;Industrial;4.7;52.13;EUR;4.0;4;Delivered
+ORD-101950;2026-07-16 00:00:00;Kestrel Parcels AB;Gothenburg;SE;Amsterdam;NL;Economy;Industrial;16.28;43.36;EUR;4.0;7;Delivered
+ORD-104541;Feb 09, 2026;Nordfrakt;Gothenburg;SE;Prague;CZ;Standard;Industrial;2.66;37.99;USD;3.0;4;Delivered
+ORD-102800;May 11, 2026;Baltica Logistics A/S;Hamburg;DE;Frankfurt;DE;Express;Wholesale;16.39;114.75;EUR;2.0;2;Delivered
+ORD-104708;Apr 27, 2026; Meridian Express;Hamburg;DE;Tampere;FI;Standard;Wholesale;14.3;60.17;USD;3.0;4;DELIVERED
+ORD-102257;2026-02-23;Baltica Logistics A/S;Hamburg;DE;Berlin;DE;Standard;Wholesale;19.26;64.14;EUR;2.0;4;Delivered
+ORD-103824;21/01/2026;MERIDIAN EXPRESS;Hamburg;DE;Geneva;CH;Standard;Retail;39.56;91.27;USD;4.0;4;Delivered
+ORD-100753;Jul 27, 2026; Meridian Express;Hamburg;DE;Brno;CZ;Standard;Retail;10.98;64.28;EUR;3.0;4;Delivered
+ORD-101563;Jul 20, 2026;Hanseatic Line;Rotterdam;NL;Frankfurt;DE;Standard;Industrial;29.44;76.54;EUR;3.0;4;Delivered
+ORD-103493;13/04/2026;Meridian Express;Barcelona;ES;Aarhus;DK;Standard;Wholesale;31.78;71.8;USD;2.0;4;Delivered
+ORD-102648;2026-07-28 00:00:00;Baltica Logistics;Gothenburg;SE;Eindhoven;NL;Standard;Industrial;10.95;60.24;EUR;4.0;4;DELIVERED
+ORD-103563;May 12, 2026;Vantage Freight;Barcelona;ES;Bergen;NO;Standard;Industrial;16.78;51.81;EUR;2.0;4;Delivered
+ORD-101964;25/05/2026;Kestrel Parcels AB;Rotterdam;NL;Frankfurt;DE;Economy;Retail;21.5;56.12;EUR;6.0;7;Delivered
+ORD-101427;Jul 09, 2026;Kestrel Parcels AB;Milan;IT;Eindhoven;NL;Standard;Retail;9.32;52.96;EUR;3.0;4;Delivered
+ORD-103322;2026-05-06 00:00:00;Meridian Expr;Gothenburg;SE;London;GB;Standard;Wholesale;29.0;73.24;EUR;4.0;4;Delivered
+ORD-104028;2026-03-16;Nordfrakt AB;Gothenburg;SE;Vienna;AT;Standard;Wholesale;20.2;68.19;EUR;3.0;4;Delivered
+ORD-100174;18/03/2026;kestrel;Gothenburg;SE;Gdansk;PL;Economy;Retail;6.64;32.81;USD;4.0;7;Delivered
+ORD-100277;2026-05-04; Nordfrakt ;Gothenburg;SE;Aarhus;DK;Standard;Industrial;2.99;33.14;EUR;2.0;4;Delivered
+ORD-101024;26/05/2026;HANSEATIC;Barcelona;ES;Malmo;SE;Express;Industrial;33.01;1436.17;SEK;2.0;2;DELIVERED
+ORD-101466;2026-02-12;Baltica Logistics A/S;Milan;IT;Helsinki;FI;Standard;Wholesale;18.83;70.61;EUR;5.0;4;Delayed
+ORD-101713;2026-04-07;Kestrel Parcel;Gothenburg;SE;Bergen;NO;Express;Industrial;86.18;3059.36;SEK;3.0;2;DELAYED
+ORD-103424;Jan 29, 2026;Nordfrakt AB;Gothenburg;SE;Gothenburg;SE;Economy;Wholesale;14.49;28.59;EUR;3.0;7;Delivered
+ORD-102611;Jul 23, 2026;Kestrel Parcels AB;Gothenburg;SE;Marseille;FR;Standard;Wholesale;8.23;58.0;EUR;4.0;4;Delivered
+ORD-100388;03/07/2026;Vantage Freight Ltd;Milan;IT;Munich;DE;Standard;E-Commerce;44.52;89.07;EUR;2.0;4;Delivered
+ORD-102821;2026-06-01;Hanseatic Line;Gothenburg;SE;Rome;IT;Economy;E-Commerce;80.33;116.47;USD;;7;Delivered
+ORD-104927;20/01/2026;Meridian Expr;Gothenburg;SE;Aarhus;DK;Standard;Retail;14.14;43.76;EUR;3.0;4;Delivered
+ORD-103574;2026-08-06 00:00:00;KESTREL PARCEL;Rotterdam;NL;Valencia;ES;Standard;E-Commerce;21.48;691.0;USD;6.0;4;Delayed
+ORD-100050;2026-04-22;Meridian Expr;Gothenburg;SE;Aarhus;DK;Express;Retail;28.39;110.19;EUR;1.0;2;Delivered
+ORD-103695;2026-02-16;Kestrel Parcels AB;Gothenburg;SE;Munich;DE;Economy;Retail;19.04;33.48;USD;7.0;7;Delivered
+ORD-104162;05/01/2026;Baltica Logistics;Rotterdam;NL;Graz;AT;Standard;Retail;17.61;75.15;EUR;4.0;4;Delivered
+ORD-103867;19/05/2026;MERIDIAN EXPRESS;Gothenburg;SE;Eindhoven;NL;Express;Retail;5.39;86.88;EUR;2.0;2;Delivered
+ORD-102929;2026-02-23 00:00:00;vantage freight;Hamburg;DE;Tampere;FI;Standard;Wholesale;33.61;88.58;EUR;4.0;4;Delivered
+ORD-104761;09/06/2026;MERIDIAN EXPRESS;Hamburg;DE;Gothenburg;SE;Express;E-Commerce;14.96;1030.59;SEK;1.0;2;Delivered
+ORD-102344;Jan 17, 2026;KESTREL PARCEL;Gothenburg;SE;Cologne;DE;Express;Wholesale;16.18;1247.98;SEK;2.0;2;Delivered
+ORD-104727;30/06/2026;Kestrel Parcels AB;Hamburg;DE;Gothenburg;SE;Express;Wholesale;43.35;145.5;EUR;1.0;2;Delivered
+ORD-100724;2026-05-06;Kestrel Parcel;Gothenburg;SE;Gothenburg;SE;Standard;E-Commerce;29.54;85.3;USD;3.0;4;Delivered
+ORD-104979;Jan 29, 2026;baltica;Hamburg;DE;Gdansk;PL;Express;Retail;33.65;172.46;EUR;3.0;2;Delayed
+ORD-104897;Jan 15, 2026;Nordfrakt AB;Gothenburg;SE;Eindhoven;NL;Standard;Wholesale;30.35;76.25;EUR;3.0;4;Delivered
+ORD-101735;May 13, 2026;Vantage Freight Ltd;Hamburg;DE;Zurich;CH;Standard;Industrial;23.38;73.77;EUR;5.0;4;Delayed
+ORD-100273;2026-08-09 00:00:00;Baltica Logistics A/S;Gothenburg;SE;Geneva;CH;Express;E-Commerce;87.38;356.8;EUR;2.0;2;Delivered
+ORD-102944;2026-05-26 00:00:00;Baltica Logistics A/S;Milan;IT;Brno;CZ;Standard;Retail;38.72;93.77;EUR;4.0;4;DELIVERED
+ORD-102692;2026-07-13 00:00:00;Nordfrakt;Barcelona;ES;Stockholm;SE;Express;E-Commerce;23.73;137.79;EUR;1.0;2;Delivered
+ORD-102767;2026-08-28 00:00:00;KESTREL PARCEL;Gothenburg;SE;Frankfurt;DE;Economy;Retail;11.78;45.54;USD;5.0;7;Delivered
+ORD-101131;03/03/2026;Nordfrakt AB;Gothenburg;SE;Oslo;NO;Standard;E-Commerce;59.11;101.06;EUR;3.0;4;Delivered
+ORD-102239;2026-06-29;Meridian Express;Milan;IT;Aarhus;DK;Standard;Industrial;37.75;992.39;SEK;2.0;4;Delivered
+ORD-101383;06/07/2026; Nordfrakt ;Gothenburg;SE;Bergen;NO;Express;Retail;33.03;144.21;EUR;2.0;2;Delivered
+ORD-103074;14/01/2026; Meridian Express;Hamburg;DE;Munich;DE;Standard;Industrial;47.73;102.68;EUR;3.0;4;Delivered
+ORD-102630;2026-07-27; Nordfrakt ;Rotterdam;NL;Geneva;CH;Standard;Wholesale;93.13;1629.6;SEK;3.0;4;Delivered
+ORD-100624;26/01/2026;Vantage Freight;Barcelona;ES;Cologne;DE;Economy;Wholesale;50.23;873.95;SEK;4.0;7;Delivered
+ORD-100839;2026-07-13 00:00:00;nordfrakt;Gothenburg;SE;Vienna;AT;Standard;E-Commerce;14.22;626.97;SEK;2.0;4;Delivered
+ORD-100323;2026-07-16;nordfrakt;Hamburg;DE;Eindhoven;NL;Standard;Industrial;22.74;730.16;SEK;3.0;4;Delivered
+ORD-101867;2026-04-22 00:00:00;Baltica Logistics A/S;Hamburg;DE;Vienna;AT;Economy;Industrial;5.98;30.77;EUR;4.0;7;Delivered
+ORD-104583;2026-03-24; Nordfrakt ;Milan;IT;Malmo;SE;Standard;Retail;15.29;60.06;EUR;2.0;4;Delivered
+ORD-100437;2026-07-23;hanseatic line;Gothenburg;SE;Copenhagen;DK;Economy;Retail;75.41;100.54;EUR;4.0;7;Delivered
+ORD-104722;Aug 03, 2026;Meridian Expr;Milan;IT;Berlin;DE;Standard;E-Commerce;27.44;94.31;EUR;3.0;4;Delivered
+ORD-104467;Aug 04, 2026; Nordfrakt ;Rotterdam;NL;Krakow;PL;Standard;Wholesale;8.34;51.39;EUR;3.0;4;Delivered
+ORD-101204;23/02/2026;Vantage Freight Ltd;Gothenburg;SE;Malmo;SE;Express;Retail;17.43;109.31;EUR;1.0;2;Delivered
+ORD-104992;27/08/2026;HANSEATIC;Gothenburg;SE;Manchester;GB;Standard;Retail;43.19;121.46;USD;6.0;4;Delayed
+ORD-100552;2026-05-29 00:00:00;Nordfrakt;Hamburg;DE;Eindhoven;NL;Standard;E-Commerce;14.83;42.7;USD;2.0;4;Delivered
+ORD-104567;23/03/2026;Kestrel Parcel;Rotterdam;NL;Oslo;NO;Economy;Wholesale;38.79;59.63;USD;4.0;7;Delivered
+ORD-101613;Mar 16, 2026;Vantage;Gothenburg;SE;Cologne;DE;Standard;Retail;19.88;64.86;EUR;3.0;4;Delivered
+ORD-102934;2026-05-18;Nordfrakt;Gothenburg;SE;Malmo;SE;Standard;Industrial;31.91;56.44;EUR;2.0;4;Delivered
+ORD-100236;02/03/2026;baltica;Rotterdam;NL;Zurich;CH;Standard;E-Commerce;18.9;83.98;EUR;4.0;4;Delivered
+ORD-103625;13/04/2026;Hanseatic Lines;Gothenburg;SE;Amsterdam;NL;Standard;Retail;33.02;923.67;SEK;3.0;4;Delivered
+ORD-103127;Jul 13, 2026;KESTREL PARCEL;Milan;IT;Helsinki;FI;Standard;E-Commerce;17.02;759.32;SEK;6.0;4;DELAYED
+ORD-102435;Jan 05, 2026;nordfrakt;Rotterdam;NL;Vienna;AT;Express;Wholesale;77.61;262.4;EUR;2.0;2;Delivered
+ORD-100390;14/04/2026; Nordfrakt ;Gothenburg;SE;Turin;IT;Express;Retail;46.11;219.66;USD;3.0;2;DELAYED
+ORD-101217;Apr 07, 2026;Meridian Express;Gothenburg;SE;Warsaw;PL;Standard;E-Commerce;27.21;100.16;EUR;3.0;4;Delivered
+ORD-100235;Mar 30, 2026;MERIDIAN EXPRESS;Gothenburg;SE;Berlin;DE;Express;E-Commerce;22.55;140.93;EUR;2.0;2;Delivered
+ORD-103134;2026-03-26 00:00:00;Baltica Log.;Hamburg;DE;Bergen;NO;Standard;E-Commerce;10.04;55.82;USD;;4;Delivered
+ORD-101594;2026-03-23 00:00:00;nordfrakt;Hamburg;DE;Gothenburg;SE;Economy;Retail;11.03;38.31;USD;3.0;7;Delivered
+ORD-102891;2026-01-07;kestrel;Barcelona;ES;Geneva;CH;Economy;Retail;34.12;63.66;EUR;6.0;7;Delivered
+ORD-101245;24/08/2026; Nordfrakt ;Rotterdam;NL;Graz;AT;Economy;E-Commerce;24.47;43.35;EUR;4.0;7;Delivered
+ORD-104148;17/06/2026; Meridian Express;Gothenburg;SE;Frankfurt;DE;Standard;Retail;23.18;61.0;EUR;3.0;4;Delivered
+ORD-100818;01/03/2026;Baltica Logistics A/S;Gothenburg;SE;Eindhoven;NL;Express;Industrial;49.17;177.0;EUR;2.0;2;Delivered
+ORD-103458;2026-06-05 00:00:00;hanseatic line;Rotterdam;NL;Munich;DE;Express;Wholesale;12.99;127.32;USD;2.0;2;Delivered
+ORD-100155;2026-02-27;Nordfrakt AB;Gothenburg;SE;Helsinki;FI;Economy;E-Commerce;66.71;90.94;EUR;6.0;7;In Transit
+ORD-104914;2026-05-01;nordfrakt;Hamburg;DE;Gdansk;PL;Standard;Retail;16.25;70.39;EUR;5.0;4;Delayed
+ORD-100248;2026-05-07 00:00:00;Vantage Freight;Rotterdam;NL;Zurich;CH;Standard;Industrial;24.33;76.44;EUR;3.0;4;DELIVERED
+ORD-100793;May 28, 2026;Vantage Freight Ltd;Barcelona;ES;Krakow;PL;Standard;Industrial;25.28;89.36;EUR;4.0;4;Delivered
+ORD-103189;Jun 01, 2026; Nordfrakt ;Barcelona;ES;Gothenburg;SE;Economy;Retail;9.89;26.66;EUR;3.0;7;Delivered
+ORD-102902;Jun 17, 2026;Vantage Freight Ltd;Hamburg;DE;Helsinki;FI;Standard;Wholesale;10.89;695.5;SEK;5.0;4;Delayed
+ORD-101828;02/02/2026;KESTREL PARCEL;Gothenburg;SE;Marseille;FR;Economy;Retail;47.82;80.13;USD;5.0;7;Delivered
+ORD-100826;2026-03-09;Nordfrakt AB;Gothenburg;SE;Berlin;DE;Economy;Industrial;10.85;37.13;USD;3.0;7;Delivered
+ORD-103864;2026-02-10 00:00:00; Nordfrakt ;Hamburg;DE;Malmo;SE;Economy;E-Commerce;53.69;61.47;EUR;2.0;7;Delivered
+ORD-103767;16/04/2026;kestrel;Barcelona;ES;Graz;AT;Standard;Wholesale;15.58;541.88;SEK;5.0;4;Delayed
+ORD-102952;2026-07-28; Nordfrakt ;Gothenburg;SE;Vienna;AT;Economy;Retail;6.28;413.7;SEK;6.0;7;Delivered
+ORD-100322;2026-02-02 00:00:00;Nordfrakt;Hamburg;DE;Gothenburg;SE;Economy;Retail;72.52;61.87;EUR;2.0;7;Delivered
+ORD-103330;Feb 01, 2026;HANSEATIC;Gothenburg;SE;Madrid;ES;Economy;Retail;43.37;87.65;EUR;11.0;7;Delayed
+ORD-102560;12/01/2026;Nordfrakt;Hamburg;DE;Munich;DE;Standard;Industrial;37.82;98.27;EUR;3.0;4;Delivered
+ORD-102977;06/07/2026;Baltica Log.;Hamburg;DE;Krakow;PL;Standard;Industrial;42.67;120.33;USD;4.0;4;Delivered
+ORD-102080;May 29, 2026;nordfrakt;Barcelona;ES;Vienna;AT;Standard;E-Commerce;36.11;71.64;EUR;4.0;4;Delivered
+ORD-104509;13/08/2026;Vantage Freight Ltd;Barcelona;ES;Frankfurt;DE;Standard;Wholesale;52.07;1125.03;SEK;3.0;4;Delivered
+ORD-102628;2026-02-02;nordfrakt;Gothenburg;SE;Helsinki;FI;Economy;Wholesale;10.56;31.65;EUR;5.0;7;Delivered
+ORD-100614;2026-03-12;Hanseatic Line;Hamburg;DE;Malmo;SE;Standard;E-Commerce;7.5;40.32;EUR;4.0;4;Delivered
+ORD-103905;2026-04-23 00:00:00;nordfrakt;Rotterdam;NL;Madrid;ES;Standard;Wholesale;54.63;143.01;EUR;4.0;4;Delivered
+ORD-101211;May 04, 2026;Vantage;Rotterdam;NL; Oslo ;NO;Standard;E-Commerce;35.6;81.42;EUR;4.0;4;Delivered
+ORD-101055;2026-08-29 00:00:00;MERIDIAN EXPRESS;Gothenburg;SE; Gothenburg ;SE;Express;E-Commerce;35.02;145.98;EUR;1.0;2;Delivered
+ORD-100796;Aug 14, 2026;Kestrel Parcel;Hamburg;DE;Stockholm;SE;Economy;Industrial;35.17;60.12;USD;4.0;7;Delivered
+ORD-104270;13/05/2026; Meridian Express;Barcelona;ES;Graz;AT;Standard;E-Commerce;22.86;88.02;EUR;3.0;4;Delivered
+ORD-101080;2026-07-20 00:00:00;KESTREL PARCEL;Gothenburg;SE;Gothenburg;SE;Standard;Retail;32.26;75.94;EUR;3.0;4;Delivered
+ORD-101607;Jan 21, 2026;hanseatic line;Hamburg;DE;Copenhagen;DK;Standard;Retail;18.14;741.89;SEK;3.0;4;Delivered
+ORD-100144;Aug 27, 2026;Vantage;Gothenburg;SE;Aarhus;DK;Standard;Wholesale;27.52;64.98;EUR;2.0;4;Delivered
+ORD-100682;2026-08-10 00:00:00;Nordfrakt AB;Hamburg;DE;Cologne;DE;Standard;Retail;12.94;50.31;EUR;3.0;4;Delivered
+ORD-103431;2026-04-27;Baltica Logistics A/S;Barcelona;ES;Gothenburg;SE;Economy;E-Commerce;28.71;39.18;EUR;3.0;7;Delivered
+ORD-100834;15/06/2026;baltica;Gothenburg;SE;Oslo;NO;Standard;Retail;9.64;595.1;SEK;3.0;4;Delivered
+ORD-101400;Jun 15, 2026; Nordfrakt ;Rotterdam;NL;Munich;DE;Economy;E-Commerce;21.68;38.44;EUR;3.0;7;Delivered
+ORD-101468;May 01, 2026;nordfrakt;Gothenburg;SE;Oslo;NO;Standard;Industrial;24.97;74.16;EUR;3.0;4;Delivered
+ORD-103928;2026-02-27;MERIDIAN EXPRESS;Gothenburg;SE;Berlin;DE;Standard;E-Commerce;52.03;;EUR;2.0;4;Delivered
+ORD-103245;2026-05-19;hanseatic line;Rotterdam;NL;Gothenburg;SE;Standard;Industrial;10.62;47.37;EUR;3.0;4;Delivered
+ORD-100998;2026-08-11 00:00:00;baltica;Barcelona;ES;Munich;DE;Economy;Retail;13.0;39.08;EUR;4.0;7;Delivered
+ORD-103875;2026-01-26;Vantage Freight Ltd;Milan;IT;Vienna;AT;Standard;Retail;9.79;616.31;SEK;4.0;4;Delivered
+ORD-101142;2026-07-27 00:00:00;Baltica Logistics A/S;Barcelona;ES;Rome;IT;Standard;Wholesale;16.66;71.29;USD;5.0;4;Delayed
+ORD-100084;2026-02-09;Meridian Expr;Gothenburg;SE;Gothenburg;SE;Economy;Wholesale;27.28;46.89;EUR;3.0;7;Delivered
+ORD-102210;2026-03-20 00:00:00;vantage freight;Gothenburg;SE;Gothenburg;SE;Express;Retail;44.18;2250.75;SEK;1.0;2;Delivered
+ORD-103440;03/08/2026;Meridian Express;Rotterdam;NL;Rome;IT;Standard;Wholesale;57.97;112.92;USD;4.0;4;Delivered
+ORD-101567;2026-01-26;Baltica Logistics;Gothenburg;SE;Turin;IT;Standard;Retail;25.61;85.58;EUR;5.0;4;Delayed
+ORD-101660;2026-02-04;KESTREL PARCEL;Rotterdam;NL;Tampere;FI;Economy;Industrial;26.14;61.75;EUR;6.0;7;Delivered
+ORD-101556;2026-07-06 00:00:00;Vantage;Gothenburg;SE;Vienna;AT;Standard;Retail;20.1;792.12;SEK;4.0;4;Delivered
+ORD-103584;2026-04-18 00:00:00;Vantage Freight;Rotterdam;NL;Gdansk;PL;Standard;Retail;39.25;119.51;USD;4.0;4;Delivered
+ORD-103144;24/04/2026;Vantage Freight;Rotterdam;NL;Krakow;PL;Economy;Retail;28.63;59.55;EUR;5.0;7;Delivered
+ORD-103588;2026-02-21 00:00:00;Vantage Freight;Hamburg;DE;Frankfurt;DE;Standard;E-Commerce;55.96;138.47;USD;4.0;4;In Transit
+ORD-103267;2026-03-15 00:00:00;Nordfrakt AB;Gothenburg;SE;Rome;IT;Standard;Wholesale;54.37;134.3;EUR;3.0;4;Delivered
+ORD-102542;2026-08-10 00:00:00;nordfrakt;Rotterdam;NL;Prague;CZ;Economy;Retail;18.41;51.45;EUR;5.0;7;Delivered
+ORD-102412;2026-07-27;Baltica Logistics A/S;Gothenburg;SE;Rome;IT;Standard;Wholesale;21.52;72.77;EUR;5.0;4;DELAYED
+ORD-101110;2026-02-11;Meridian Expr;Gothenburg;SE;Amsterdam;NL;Standard;E-Commerce;42.09;97.62;EUR;2.0;4;Delivered
+ORD-102828;09/02/2026;Kestrel Parcel;Gothenburg;SE;Berlin;DE;Economy;Retail;51.23;70.27;EUR;6.0;7;Delivered
+ORD-100292;2026-08-06 00:00:00;Nordfrakt;Gothenburg;SE;Paris;FR;Economy;Wholesale;19.59;57.25;EUR;4.0;7;Delivered
+ORD-102127;2026-02-09;HANSEATIC;Rotterdam;NL;Cologne;DE;Express;Industrial;15.34;108.55;EUR;2.0;2;Delivered
+ORD-103990;20/04/2026;Kestrel Parcels AB;Hamburg;DE;Warsaw;PL;Standard;E-Commerce;17.46;77.23;EUR;4.0;4;In Transit
+ORD-100254;26/02/2026;Vantage;Milan;IT;Zurich;CH;Standard;Retail;7.94;596.76;SEK;5.0;4;Delayed
+ORD-103266;Apr 10, 2026;Baltica Log.;Gothenburg;SE;Graz;AT;Standard;E-Commerce;29.42;90.23;EUR;3.0;4;Delivered
+ORD-102907;2026-08-03 00:00:00;vantage freight;Rotterdam;NL;Manchester;GB;Standard;Industrial;22.31;77.71;USD;4.0;4;Delivered
+ORD-101829;22/08/2026;Baltica Logistics;Milan;IT;Madrid;ES;Standard;E-Commerce;41.23;86.77;EUR;6.0;4;Delayed
+ORD-104704;08/04/2026;Kestrel Parcels AB;Milan;IT;Gothenburg;SE;Express;E-Commerce;15.75;95.18;USD;1.0;2;Delivered
+ORD-101148;2026-03-16 00:00:00;Baltica Logistics;Gothenburg;SE;Paris;FR;Standard;Retail;32.79;1015.27;SEK;4.0;4;Delivered
+ORD-104994;16/02/2026;nordfrakt;Milan;IT;Marseille;FR;Economy;Wholesale;6.95;35.32;EUR;6.0;7;Delivered
+ORD-103968;Jan 19, 2026;Baltica Log.;Gothenburg;SE;Frankfurt;DE;Standard;E-Commerce;16.2;52.34;EUR;3.0;4;Delivered
+ORD-101994;2026-04-18 00:00:00;Nordfrakt;Rotterdam;NL;London;GB;Express;Wholesale;47.71;193.03;EUR;3.0;2;Delayed
+ORD-102824;2026-02-03 00:00:00;Vantage;Hamburg;DE;Amsterdam;NL;Standard;Industrial;21.63;71.98;EUR;3.0;4;Delivered
+ORD-102897;Feb 09, 2026;Kestrel Parcel;Gothenburg;SE;Warsaw;PL;Standard;Retail;8.14;62.92;EUR;4.0;4;Delivered
+ORD-102823;2026-08-18 00:00:00;vantage freight;Hamburg;DE;Stockholm;SE;Economy;Wholesale;31.53;48.11;EUR;4.0;7;DELIVERED
+ORD-103540;Apr 08, 2026;Nordfrakt AB;Hamburg;DE;Copenhagen;DK;Economy;E-Commerce;8.23;32.88;USD;4.0;7;Delivered
+ORD-103599;05/02/2026;HANSEATIC;Milan;IT;Aarhus;DK;Express;Industrial;25.62;142.31;EUR;2.0;2;Delivered
+ORD-102597;01/04/2026;Baltica Logistics;Hamburg;DE;Frankfurt;DE;Standard;Industrial;30.49;73.92;EUR;3.0;4;Delivered
+ORD-100966;Jan 26, 2026;MERIDIAN EXPRESS;Gothenburg;SE;Bergen;NO;Economy;Industrial;19.57;55.21;EUR;5.0;7;Delivered
+ORD-101230;25/05/2026;Vantage;Hamburg;DE;Turin;IT;Express;Wholesale;38.04;249.66;EUR;2.0;2;Delivered
+ORD-100104;12/05/2026;Nordfrakt AB;Rotterdam;NL;Lyon;FR;Express;Industrial;46.28;201.96;USD;2.0;2;Delivered
+ORD-104590;2026-03-17 00:00:00;nordfrakt;Rotterdam;NL;Rome;IT;Standard;E-Commerce;39.91;108.03;USD;3.0;4;Delivered
+ORD-100091;2026-05-18 00:00:00;Hanseatic Line;Hamburg;DE;Zurich;CH;Standard;Retail;22.67;58.9;EUR;5.0;4;Delayed
+ORD-100942;15/07/2026;vantage freight;Gothenburg;SE;Cologne;DE;Standard;E-Commerce;39.42;86.51;EUR;2.0;4;Delivered
+ORD-103229;Jun 02, 2026;baltica;Rotterdam;NL; Madrid ;ES;Economy;Wholesale;14.57;36.81;EUR;7.0;7;Delivered
+ORD-101862;2026-06-09; Meridian Express;Hamburg;DE;Helsinki;FI;Standard;Retail;29.99;64.6;EUR;4.0;4;Delivered
+ORD-101669;Apr 03, 2026;kestrel;Gothenburg;SE;Eindhoven;NL;Standard;E-Commerce;59.42;109.99;EUR;3.0;4;Delivered
+ORD-100005;Jun 15, 2026; Meridian Express;Rotterdam;NL;Warsaw;PL;Standard;Wholesale;8.45;60.49;EUR;3.0;4;Delivered
+ORD-103943;2026-08-15 00:00:00;Hanseatic Lines;Barcelona;ES;Vienna;AT;Standard;Retail;60.42;116.87;EUR;5.0;4;DELAYED
+ORD-103013;2026-04-09 00:00:00;baltica;Gothenburg;SE;Gdansk;PL;Standard;Retail;14.26;61.49;EUR;5.0;4;Delayed
+ORD-100018;2026-06-05;vantage freight;Gothenburg;SE;Warsaw;PL;Standard;Retail;34.28;102.62;EUR;4.0;4;Delivered
+ORD-102709;Jun 24, 2026;MERIDIAN EXPRESS;Milan;IT;Madrid;ES;Economy;Retail;6.38;41.83;EUR;5.0;7;DELIVERED
+ORD-102232;2026-07-29 00:00:00;Vantage Freight Ltd;Hamburg;DE;Frankfurt;DE;Standard;Retail;59.01;137.24;USD;3.0;4;Delivered
+ORD-100811;2026-06-26 00:00:00;Nordfrakt AB;Hamburg;DE;Bergen;NO;Standard;Wholesale;24.89;71.14;EUR;;4;Cancelled
+ORD-101300;2026-04-22;Baltica Log.;Barcelona;ES;Graz;AT;Economy;E-Commerce;37.68;64.99;USD;6.0;7;Delivered
+ORD-100260;May 11, 2026;Nordfrakt;Barcelona;ES;Turin;IT;Economy;Retail;17.1;47.43;USD;6.0;7;Delivered
+ORD-102454;2026-06-01;Vantage Freight;Gothenburg;SE;Warsaw;PL;Economy;Wholesale;2.29;39.78;EUR;5.0;7;Delivered
+ORD-101630;Jan 09, 2026;nordfrakt;Milan;IT;Helsinki;FI;Economy;Retail;25.1;52.53;EUR;5.0;7;Delivered
+ORD-101716;2026-02-18;Meridian Expr;Rotterdam;NL;Vienna;AT;Standard;Wholesale;6.3;43.75;EUR;;4;Cancelled
+ORD-103482;May 11, 2026;vantage freight;Gothenburg;SE;Malmo;SE;Economy;Retail;69.08;93.07;EUR;3.0;7;Delivered
+ORD-101658;2026-06-04;Baltica Logistics;Rotterdam;NL;Munich;DE;Express;Retail;24.04;149.51;EUR;2.0;2;In Transit
+ORD-103472;2026-04-08 00:00:00;vantage freight;Rotterdam;NL;Copenhagen;DK;Standard;Retail;24.32;57.31;EUR;2.0;4;Delivered
+ORD-103948;15/08/2026; Nordfrakt ;Gothenburg;SE;Gothenburg;SE;Standard;Retail;11.42;403.49;SEK;1.0;4;Delivered
+ORD-100763;27/07/2026;Nordfrakt;Barcelona;ES;Eindhoven;NL;Standard;Wholesale;9.62;40.65;EUR;3.0;4;Delivered
+ORD-104703;2026-06-12;baltica;Rotterdam;NL;Paris;FR;Express;Industrial;32.04;122.72;EUR;2.0;2;Delivered
+ORD-104326;10/06/2026;Kestrel Parcel;Barcelona;ES;Munich;DE;Standard;E-Commerce;2.36;459.91;SEK;5.0;4;Delayed
+ORD-103608;2026-02-02;Vantage;Gothenburg;SE;Copenhagen;DK;Express;Retail;12.48;1149.16;SEK;1.0;2;Delivered
+ORD-104557;2026-06-16;Baltica Logistics;Barcelona;ES;Tampere;FI;Standard;Wholesale;25.58;91.32;EUR;4.0;4;Delivered
+ORD-100958;16/08/2026;baltica;Rotterdam;NL;Valencia;ES;Economy;Industrial;12.73;50.48;EUR;7.0;7;Delivered
+ORD-100559;Jun 11, 2026;Vantage Freight;Hamburg;DE;Graz;AT;Standard;Industrial;7.55;45.76;EUR;4.0;4;Delivered
+ORD-103901;2026-08-05;Baltica Logistics A/S;Gothenburg;SE;Prague;CZ;Economy;Retail;39.04;60.06;EUR;;7;Delivered
+ORD-104165;Mar 09, 2026;Vantage Freight;Gothenburg;SE;Zurich;CH;Economy;Industrial;40.12;;EUR;5.0;7;Delivered
+ORD-101572;2026-04-08 00:00:00; Nordfrakt ;Barcelona;ES; Gothenburg ;SE;Economy;Wholesale;16.34;32.99;USD;2.0;7;Delivered
+ORD-103232;2026-03-09; Meridian Express;Gothenburg;SE;Malmo;SE;Economy;Industrial;30.44;47.8;USD;3.0;7;DELIVERED
+ORD-100011;18/08/2026;Nordfrakt AB;Milan;IT;Vienna;AT;Express;Industrial;27.98;138.94;EUR;3.0;2;Delayed
+ORD-100176;30/03/2026;baltica;Gothenburg;SE;Paris;FR;Standard;Retail;7.17;50.67;EUR;;4;Delivered
+ORD-102569;22/07/2026;Vantage Freight;Rotterdam;NL;Vienna;AT;Standard;E-Commerce;66.67;114.55;EUR;4.0;4;Delivered
+ORD-103520;28/05/2026;baltica;Rotterdam;NL;Frankfurt;DE;Express;E-Commerce;23.39;115.72;EUR;2.0;2;Delivered
+ORD-103282;17/08/2026;Baltica Logistics;Milan;IT;Prague;CZ;Express;Retail;25.81;136.6;EUR;2.0;2;Delivered
+ORD-102451;2026-07-02 00:00:00;Vantage Freight Ltd;Rotterdam;NL;Helsinki;FI;Standard;Retail;36.28;944.74;SEK;4.0;4;DELIVERED
+ORD-103370;24/08/2026;Baltica Log.;Barcelona;ES;Munich;DE;Standard;Wholesale;23.16;72.47;EUR;4.0;4;Delivered
+ORD-104252;Aug 21, 2026;MERIDIAN EXPRESS;Barcelona;ES; Berlin ;DE;Express;Industrial;22.46;132.63;EUR;2.0;2;Delivered
+ORD-103578;2026-06-27 00:00:00;Nordfrakt AB;Gothenburg;SE;Tampere;FI;Economy;Industrial;61.32;90.27;EUR;6.0;7;Delivered
+ORD-102624;Jul 20, 2026;HANSEATIC;Hamburg;DE;Brno;CZ;Economy;Industrial;27.9;52.14;EUR;7.0;7;In Transit
+ORD-101006;2026-06-10;Nordfrakt;Milan;IT;Rome;IT;Standard;E-Commerce;11.9;54.0;EUR;5.0;4;Delayed
+ORD-102049;2026-02-26 00:00:00; Nordfrakt ;Barcelona;ES;Rome;IT;Standard;Industrial;45.47;88.16;EUR;4.0;4;Delivered
+ORD-104011;2026-06-29;baltica;Milan;IT; Cologne ;DE;Express;Industrial;19.29;129.89;EUR;;2;Cancelled
+ORD-100269;2026-01-19 00:00:00;Vantage;Gothenburg;SE;Eindhoven;NL;Standard;Wholesale;43.8;1070.5;SEK;3.0;4;Delivered
+ORD-101993;Feb 16, 2026;Vantage Freight;Hamburg;DE;Tampere;FI;Express;Wholesale;28.92;170.41;EUR;3.0;2;Delayed
+ORD-100265;2026-01-14;Baltica Logistics;Gothenburg;SE;Valencia;ES;Standard;E-Commerce;39.3;108.89;EUR;5.0;4;Delayed
+ORD-100914;2026-01-19 00:00:00;Baltica Logistics;Milan;IT;Frankfurt;DE;Express;Industrial;27.9;90.7;EUR;2.0;2;Delivered
+ORD-100290;18/05/2026;Nordfrakt AB;Barcelona;ES;Paris;FR;Economy;Wholesale;9.12;33.93;EUR;6.0;7;Delivered
+ORD-104141;2026-06-15 00:00:00;Vantage Freight;Hamburg;DE;Rome;IT;Economy;E-Commerce;60.54;83.17;EUR;6.0;7;Delivered
+ORD-102677;26/06/2026;Hanseatic Lines;Rotterdam;NL;Gdansk;PL;Express;Wholesale;43.97;224.3;EUR;4.0;2;Delayed
+ORD-100850;Aug 21, 2026;Nordfrakt AB;Rotterdam;NL;Frankfurt;DE;Standard;Retail;38.08;95.63;EUR;4.0;4;In Transit
+ORD-101722;23/02/2026;Meridian Express;Barcelona;ES;Gdansk;PL;Standard;E-Commerce;13.07;63.7;EUR;5.0;4;Delayed
+ORD-101207;31/03/2026; Meridian Express;Gothenburg;SE;Graz;AT;Standard;Wholesale;29.49;78.74;EUR;3.0;4;DELIVERED
+ORD-101843;08/06/2026;nordfrakt;Hamburg;DE;Gdansk;PL;Economy;Industrial;18.84;33.16;EUR;6.0;7;Delivered
+ORD-103960;2026-08-03 00:00:00;Nordfrakt AB;Milan;IT;Madrid;ES;Standard;Wholesale;31.05;86.93;EUR;3.0;4;Delivered
+ORD-100233;21/04/2026;Baltica Log.;Rotterdam;NL;Turin;IT;Express;Wholesale;43.41;184.14;EUR;3.0;2;Delayed
+ORD-102647;2026-05-06;Nordfrakt;Hamburg;DE;Krakow;PL;Economy;Retail;21.54;61.43;EUR;5.0;7;Delivered
+ORD-104041;2026-02-23 00:00:00;Vantage;Hamburg;DE;Aarhus;DK;Standard;E-Commerce;36.52;72.13;EUR;2.0;4;Delivered
+ORD-100049;2026-05-04;Meridian Expr;Rotterdam;NL;London;GB;Economy;Wholesale;69.03;85.96;EUR;6.0;7;Delivered
+ORD-104937;Jan 19, 2026; Nordfrakt ;Gothenburg;SE;Munich;DE;Standard;E-Commerce;6.57;609.04;SEK;3.0;4;Delivered
+ORD-100106;2026-05-03; Nordfrakt ;Rotterdam;NL;Gdansk;PL;Express;E-Commerce;111.93;423.34;EUR;2.0;2;Delivered
+ORD-101954;2026-08-16; Meridian Express;Rotterdam;NL;Amsterdam;NL;Economy;Wholesale;60.57;79.53;EUR;4.0;7;Delivered
+ORD-100726;31/03/2026;vantage freight;Gothenburg;SE; Manchester ;GB;Economy;Retail;24.99;57.96;EUR;7.0;7;Delivered
+ORD-101001;09/04/2026;Meridian Express;Gothenburg;SE;Malmo;SE;Economy;E-Commerce;40.44;52.61;EUR;2.0;7;Delivered
+ORD-102148;09/06/2026;Vantage Freight Ltd;Gothenburg;SE;Geneva;CH;Standard;Retail;74.5;172.31;EUR;2.0;4;Delivered
+ORD-103035;2026-08-07;Meridian Expr;Gothenburg;SE;Cologne;DE;Express;Industrial;21.58;126.01;EUR;2.0;2;Delivered
+ORD-104140;2026-04-03;Baltica Logistics A/S;Rotterdam;NL;Amsterdam;NL;Economy;Wholesale;18.1;47.64;EUR;4.0;7;Delivered
+ORD-103733;27/07/2026; Meridian Express;Hamburg;DE;Berlin;DE;Standard;Wholesale;26.12;70.47;EUR;3.0;4;Delivered
+ORD-103720;2026-02-16 00:00:00;MERIDIAN EXPRESS;Gothenburg;SE;London;GB;Standard;E-Commerce;14.48;74.69;EUR;3.0;4;Delivered
+ORD-101155;2026-01-19 00:00:00;Kestrel Parcel;Gothenburg;SE;Marseille;FR;Economy;E-Commerce;26.36;50.43;USD;5.0;7;Delivered
+ORD-104135;17/08/2026;Vantage Freight Ltd;Rotterdam;NL;Frankfurt;DE;Economy;Wholesale;12.45;38.25;EUR;4.0;7;Delivered
+ORD-104923;Mar 08, 2026; Meridian Express;Gothenburg;SE;London;GB;Express;Retail;12.07;117.97;USD;2.0;2;Delivered
+ORD-104405;05/07/2026;Vantage Freight Ltd;Gothenburg;SE;Munich;DE;Express;Retail;20.74;119.03;EUR;2.0;2;Delivered
+ORD-104732;2026-04-24;Baltica Logistics A/S;Milan;IT;Gdansk;PL;Standard;Wholesale;84.05;144.78;EUR;4.0;4;Delivered
+ORD-100047;Jul 06, 2026;Kestrel Parcel;Hamburg;DE;Valencia;ES;Economy;E-Commerce;13.15;47.62;EUR;6.0;7;Delivered
+ORD-101439;Aug 07, 2026;nordfrakt;Milan;IT;Geneva;CH;Standard;Wholesale;7.5;59.45;EUR;4.0;4;Delivered
+ORD-100787;2026-03-12; Nordfrakt ;Gothenburg;SE;Stockholm;SE;Standard;Wholesale;34.55;855.98;SEK;2.0;4;Delivered
+ORD-100931;2026-03-20 00:00:00;Nordfrakt AB;Gothenburg;SE;Malmo;SE;Standard;Retail;48.29;65.45;EUR;2.0;4;Delivered
+ORD-104855;16/03/2026;KESTREL PARCEL;Rotterdam;NL; Turin ;IT;Standard;Retail;31.39;67.38;EUR;5.0;4;Delayed
+ORD-100092;06/06/2026;hanseatic line;Hamburg;DE;Brno;CZ;Express;Wholesale;10.8;118.26;EUR;3.0;2;Delayed
+ORD-102988;Jul 09, 2026;MERIDIAN EXPRESS;Milan;IT; Copenhagen ;DK;Standard;E-Commerce;1.22;408.38;SEK;3.0;4;DELIVERED
+ORD-102448;2026-05-04; Nordfrakt ;Gothenburg;SE; Manchester ;GB;Express;Industrial;4.95;97.75;EUR;3.0;2;Delayed
+ORD-104859;2026-04-20;vantage freight;Milan;IT;Frankfurt;DE;Economy;Industrial;18.69;42.85;EUR;4.0;7;DELIVERED
+ORD-104279;2026-06-08;Vantage;Rotterdam;NL;Paris;FR;Economy;Retail;49.46;83.17;EUR;5.0;7;Delivered
+ORD-101349;2026-01-21; Meridian Express;Hamburg;DE;Geneva;CH;Economy;E-Commerce;30.59;49.17;EUR;5.0;7;Delivered
+ORD-103116;Feb 09, 2026;Hanseatic Line;Gothenburg;SE;Vienna;AT;Standard;Wholesale;32.6;79.81;USD;3.0;4;Delivered
+ORD-102871;2026-08-18;Nordfrakt AB;Milan;IT;Helsinki;FI;Express;E-Commerce;53.15;206.51;EUR;2.0;2;Delivered
+ORD-101456;2026-08-24 00:00:00;vantage freight;Rotterdam;NL;Aarhus;DK;Economy;Industrial;13.3;35.36;EUR;3.0;7;Delivered
+ORD-101092;Jun 06, 2026;nordfrakt;Gothenburg;SE;Warsaw;PL;Express;Industrial;12.3;105.99;EUR;3.0;2;Delayed
+ORD-104462;2026-01-18 00:00:00;Vantage Freight Ltd;Gothenburg;SE;Bergen;NO;Express;E-Commerce;12.02;988.55;SEK;2.0;2;Delivered
+ORD-102583;2026-02-25;baltica;Hamburg;DE;Munich;DE;Economy;E-Commerce;42.66;86.35;EUR;4.0;7;Delivered
+ORD-100919;13/02/2026;HANSEATIC;Rotterdam;NL; Berlin ;DE;Express;Industrial;11.91;80.15;EUR;2.0;2;Delivered
+ORD-104307;2026-05-13 00:00:00;Vantage;Milan;IT;Turin;IT;Economy;Retail;17.04;41.19;EUR;5.0;7;Delivered
+ORD-102550;Feb 23, 2026;Nordfrakt;Hamburg;DE;Copenhagen;DK;Standard;Wholesale;2.87;30.66;EUR;2.0;4;Delivered
+ORD-101220;2026-02-20; Meridian Express;Milan;IT;Marseille;FR;Standard;Industrial;48.99;119.69;USD;4.0;4;In Transit
