@@ -93,19 +93,18 @@ def detect_weekday_signal(df: pd.DataFrame) -> dict | None:
     client's data, where nobody has told it what to look for. Ranked by the
     money at stake rather than by the size of the percentage, because a 40%
     uplift on six shipments is trivia.
+
+    The scan itself is one grouped pass in metrics.weekday_effects; the
+    thresholds and the ranking stay here, because they are editorial judgements
+    about what is worth a client's attention, not arithmetic.
     """
     candidates: list[dict] = []
-    for carrier in sorted(df["carrier"].dropna().unique()):
-        for region, countries in REGIONS.items():
-            finding = metrics.weekday_effect(df, carrier, countries)
-            if finding is None:
-                continue
-            gap = finding["late_pct"] - finding["baseline_late_pct"]
-            if finding["transit_uplift_pct"] < MIN_UPLIFT_PCT or gap < MIN_LATE_GAP_PCT:
-                continue
-            finding["region"] = region
-            finding["late_gap_pct"] = gap
-            candidates.append(finding)
+    for finding in metrics.weekday_effects(df, REGIONS):
+        gap = finding["late_pct"] - finding["baseline_late_pct"]
+        if finding["transit_uplift_pct"] < MIN_UPLIFT_PCT or gap < MIN_LATE_GAP_PCT:
+            continue
+        finding["late_gap_pct"] = gap
+        candidates.append(finding)
 
     if not candidates:
         return None

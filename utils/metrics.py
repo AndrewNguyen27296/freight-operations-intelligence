@@ -203,44 +203,99 @@ def carrier_destination_matrix(
     return rates[col_order], counts[col_order]
 
 
-def weekday_effect(
-    df: pd.DataFrame, carrier: str, destinations: set[str] | None = None
-) -> dict | None:
-    """Compare one weekday's transit performance against the other weekdays.
+WEEKDAYS_TESTED = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 
-    This is the shape of the finding the briefing is built to surface: a
-    subgroup that behaves differently from its own baseline, quantified against
-    that baseline rather than against the portfolio.
+
+def weekday_effects(df: pd.DataFrame, regions: dict[str, set[str]]) -> list[dict]:
+    """Every carrier-by-region weekday comparison, from one grouped pass.
+
+    The comparison itself is unchanged: within one carrier's shipments into one
+    region, each weekday's mean transit is measured against that same scope's
+    other days, so a slow lane is judged against its own baseline rather than
+    against the portfolio. This is the shape of finding the briefing exists to
+    surface. Only the arithmetic moved.
+
+    It used to re-slice the frame for every carrier, region and weekday in turn
+    -- around two hundred full-frame copies per filter change, 1.4s of a 1.6s
+    rerun at 5k rows, and worse in proportion on a client's real book. The same
+    numbers fall out of a single groupby, because "the other days" is just the
+    scope total minus the day, and a total does not need slicing twice.
+
+    Returns the strongest day per carrier and region, ordered by carrier then by
+    the order of `regions`, so a caller ranking these breaks ties exactly where
+    the nested loops did.
     """
-    scope = df.loc[(df["carrier"] == carrier) & ~df["is_cancelled"]]
-    if destinations is not None:
-        scope = scope.loc[scope["destination_country"].isin(destinations)]
-    if len(scope) < MIN_LANE_SHIPMENTS * 2:
-        return None
+    needed = ["carrier", "destination_country", "ship_weekday",
+              "transit_days", "is_late", "late_penalty_eur"]
+    active = df.loc[~df["is_cancelled"], needed]
+    if active.empty:
+        return []
 
-    best: dict | None = None
-    for day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]:
-        subject = scope.loc[scope["ship_weekday"] == day]
-        rest = scope.loc[scope["ship_weekday"] != day]
-        if len(subject) < MIN_LANE_SHIPMENTS or len(rest) < MIN_LANE_SHIPMENTS:
-            continue
-        base_transit = float(rest["transit_days"].mean())
-        if not base_transit:
-            continue
-        finding = {
-            "carrier": carrier,
-            "weekday": day,
-            "destinations": sorted(destinations) if destinations else None,
-            "shipments": int(len(subject)),
-            "baseline_shipments": int(len(rest)),
-            "transit_uplift_pct": 100 * (float(subject["transit_days"].mean()) / base_transit - 1),
-            "late_pct": 100 * float(subject["is_late"].mean()),
-            "baseline_late_pct": 100 * float(rest["is_late"].mean()),
-            "penalties_eur": float(subject["late_penalty_eur"].sum()),
-        }
-        if best is None or finding["transit_uplift_pct"] > best["transit_uplift_pct"]:
-            best = finding
-    return best
+    # A country could in principle be listed under two regions, so rows are
+    # exploded onto their regions rather than assigned one. Disjoint regions
+    # copy nothing; this only stops an overlapping edit from losing rows.
+    membership: dict[str, list[str]] = {}
+    for region, countries in regions.items():
+        for country in countries:
+            membership.setdefault(country, []).append(region)
+    active = active.assign(region=active["destination_country"].map(membership))
+    active = active.dropna(subset=["region"]).explode("region")
+    if active.empty:
+        return []
+
+    # dropna=False keeps rows carrying no weekday inside the scope totals. They
+    # are never the subject day, but they are part of "the other days" -- which
+    # is what the row-by-row version did when it tested `weekday != day`.
+    cells = active.groupby(["carrier", "region", "ship_weekday"],
+                           observed=True, dropna=False).agg(
+        n=("is_late", "size"),
+        transit_sum=("transit_days", "sum"),
+        transit_n=("transit_days", "count"),
+        late_n=("is_late", "sum"),
+        penalties=("late_penalty_eur", "sum"),
+    )
+    scopes = cells.groupby(level=["carrier", "region"], observed=True).sum().to_dict("index")
+    cells = cells.to_dict("index")
+
+    out: list[dict] = []
+    for carrier in sorted(df["carrier"].dropna().unique()):
+        for region, countries in regions.items():
+            scope = scopes.get((carrier, region))
+            if scope is None or scope["n"] < MIN_LANE_SHIPMENTS * 2:
+                continue
+            best: dict | None = None
+            for day in WEEKDAYS_TESTED:
+                cell = cells.get((carrier, region, day))
+                if cell is None:
+                    continue
+                subject_n = int(cell["n"])
+                rest_n = int(scope["n"]) - subject_n
+                if subject_n < MIN_LANE_SHIPMENTS or rest_n < MIN_LANE_SHIPMENTS:
+                    continue
+                rest_transit_n = scope["transit_n"] - cell["transit_n"]
+                base_transit = ((scope["transit_sum"] - cell["transit_sum"]) / rest_transit_n
+                                if rest_transit_n else float("nan"))
+                if not base_transit:
+                    continue
+                subject_transit = (cell["transit_sum"] / cell["transit_n"]
+                                   if cell["transit_n"] else float("nan"))
+                finding = {
+                    "carrier": carrier,
+                    "weekday": day,
+                    "region": region,
+                    "destinations": sorted(countries) if countries else None,
+                    "shipments": subject_n,
+                    "baseline_shipments": rest_n,
+                    "transit_uplift_pct": 100 * (subject_transit / base_transit - 1),
+                    "late_pct": 100 * float(cell["late_n"]) / subject_n,
+                    "baseline_late_pct": 100 * float(scope["late_n"] - cell["late_n"]) / rest_n,
+                    "penalties_eur": float(cell["penalties"]),
+                }
+                if best is None or finding["transit_uplift_pct"] > best["transit_uplift_pct"]:
+                    best = finding
+            if best is not None:
+                out.append(best)
+    return out
 
 
 def worst_lanes(df: pd.DataFrame, limit: int = 3) -> pd.DataFrame:
