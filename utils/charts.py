@@ -95,7 +95,12 @@ def carrier_cost_chart(by_carrier: pd.DataFrame, th: str) -> go.Figure:
         height=max(200, 44 + 32 * len(data)), hovermode="closest", showlegend=False,
         margin=dict(l=8, r=64, t=24, b=8),
     )
+    # Every carrier is labelled, for the same reason the heatmap forces its own
+    # ticks: Plotly thins categorical ticks when it judges them crowded, and a
+    # bar nobody can name is a bar nobody can act on — least of all the carrier
+    # the findings above are about.
     fig.update_yaxes(autorange="reversed", showline=False, showgrid=False, ticks="",
+                     tickmode="array", tickvals=list(data["carrier"]), ticktext=list(data["carrier"]),
                      tickfont=dict(family=theme.FONT_UI, size=12, color=t["ink_secondary"]))
     vals, labels = _money_ticks(float(data["cost_per"].max()) if len(data) else 0.0)
     fig.update_xaxes(showgrid=True, gridcolor=t["line_hairline"], showline=False, tickvals=vals,

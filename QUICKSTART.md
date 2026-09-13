@@ -39,12 +39,12 @@ streamlit run app.py
 
 The generator plants one non-obvious operational signal:
 
-> **DHL shipments dispatched on Fridays to Central Europe (DE/AT/CH/PL/CZ) run
+> **Nordfrakt shipments dispatched on Fridays to Central Europe (DE/AT/CH/PL/CZ) run
 > ~27% longer in transit than the same lanes on other weekdays — a 39% late rate
 > versus 4%, worth roughly €1.5k in SLA penalties.**
 
-This is what the "Generate AI Executive Briefing" button is meant to surface in
-V1. Verified detectable by `tests/test_pipeline.py` section 6.
+This is what the briefing surfaces in V1 — on page load, with no button to
+press. Verified detectable by `tests/test_pipeline.py` section 6.
 
 ## Repository layout (standalone, multi-repo standard)
 
@@ -144,12 +144,6 @@ from genuinely missing values.
 * FX to EUR: USD 0.92, SEK 0.087 — fixed reference rates, not live.
 * Cost outliers: IQR rule per service level, multiplier 3.0. Flagged and excluded
   from spend KPIs, **never deleted**.
-
-## Not yet done (V1)
-
-* Plotly line chart (daily cost vs on-time trend) and carrier × destination heatmap
-* `utils/ai_insights.py` — streamed executive briefing
-* Streamlit Cloud deployment
 
 ## Not yet done
 

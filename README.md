@@ -15,8 +15,8 @@
 ### The 60-Second "Wow Moment" (Your Demo North Star):
 1. The prospective client opens the live Streamlit URL.
 2. They drag a date slider and select a carrier $\rightarrow$ **all Plotly charts animate instantly with sub-second latency**.
-3. They click **"Generate AI Executive Briefing"** $\rightarrow$ Claude streams a 3-bullet analysis that uncovers a non-obvious business insight:
-   > *"⚠️ Carrier DHL has experienced a 28% increase in transit delays on Friday dispatches to Central Europe, causing an estimated $3,800 in late-delivery penalties."*
+3. The executive briefing is **already on the page** $\rightarrow$ the findings are ranked by money at stake, and the third is one no spreadsheet would surface:
+   > *"⚠️ Nordfrakt Friday dispatches to Central Europe arrive late 38.9% of the time, against 4.5% on other weekdays. Transit runs 26.8% longer across 72 shipments; penalties come to EUR 1 530 in the period."*
 4. Client reaction: *"This is exactly what I spend my entire Monday trying to figure out."*
 
 ---

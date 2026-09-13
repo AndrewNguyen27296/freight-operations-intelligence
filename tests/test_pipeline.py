@@ -17,6 +17,12 @@ from pathlib import Path
 
 import pandas as pd
 
+# Windows consoles default to cp1252, which cannot encode the true minus sign
+# and the check marks this suite prints. Force UTF-8 so the documented command
+# `python tests/test_pipeline.py` works on every platform without a flag.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
