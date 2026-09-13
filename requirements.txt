@@ -2,8 +2,15 @@
 # Standalone repository. Pinned to the exact set this build was verified on,
 # so a Streamlit Community Cloud deploy resolves the same wheels every time.
 # Pure-Python/manylinux wheels only — no system packages, no apt, no compiler.
+#
+# pyarrow is the one pin that has to track the host Python rather than our
+# own preference: Streamlit Community Cloud builds on 3.14, pyarrow 21 ships
+# wheels only to 3.13, and pip then tries to compile it against a cmake the
+# image does not have. 25.0.1 covers 3.10 through 3.14, so the same pin works
+# locally and on Cloud. streamlit depends on pyarrow>=7 regardless, so this
+# cannot be dodged by dropping the line — only by choosing the version.
 streamlit==1.50.0
 pandas==2.3.3
 numpy==2.4.6
 plotly==6.9.0
-pyarrow==21.0.0
+pyarrow==25.0.1
