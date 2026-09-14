@@ -19,6 +19,11 @@ python tests/test_pipeline.py        # 82 checks, no Streamlit needed
 streamlit run app.py
 ```
 
+Live build: <https://freight-operations-intelligence-gr6t94nmogzgzh3cgy2plf.streamlit.app/>
+
+On Windows the test command needs no flag; the suite forces UTF-8 on stdout
+because a cp1252 console cannot encode the true minus sign it prints.
+
 ## What V1 contains
 
 | File | Role |
@@ -149,7 +154,4 @@ from genuinely missing values.
 
 * **Wire the Anthropic call.** Replace `narrate()`; keep detection in Python.
   `ANTHROPIC_API_KEY` goes in `.env` locally and in Streamlit Cloud secrets.
-* **Deploy to Streamlit Cloud.** The app is deploy-ready: `data/processed/` is
-  gitignored and `ensure_processed()` rebuilds it on first load, so a fresh
-  clone boots with no error page.
 * **V2:** multi-source ingestion, Slack/email alerts, Excel export centre.

@@ -1,5 +1,7 @@
 ﻿# 📊 Pillar 1: Automated Data Pipeline & Interactive Executive Dashboard
 
+**Status: V1 shipped and live.** [Open the dashboard](https://freight-operations-intelligence-gr6t94nmogzgzh3cgy2plf.streamlit.app/) · [Repo](https://github.com/AndrewNguyen27296/freight-operations-intelligence)
+
 > **The North Star:** *"Zero-Click Operational Clarity."*  
 > An operations manager or executive opens this dashboard at 8:00 AM, sees the complete pulse of their logistics and shipping costs in 5 seconds, filters down to root causes of delays in 2 clicks, and gets an AI-generated strategic briefing without touching Excel.
 
@@ -63,7 +65,7 @@ When vibe coding with AI, enforce these technical guardrails:
   phrasing only, never arithmetic. Detection stays in Python where it can be
   unit-tested, because finding the signal is the hard part and a model is the
   wrong tool for it.
-* [ ] **Deploy to Streamlit Cloud:** Public live URL with pre-loaded mock data so anyone can test it with zero friction.
+* [x] **Deploy to Streamlit Cloud:** Live at [freight-operations-intelligence-gr6t94nmogzgzh…](https://freight-operations-intelligence-gr6t94nmogzgzh3cgy2plf.streamlit.app/) with the bundled exports preloaded, so a prospect can test it with zero friction. Cold start rebuilds `data/processed/` from `sample_data/`; a filter change round-trips in ~810 ms including network.
 
 ### Phase V2: Commercial Enterprise Delivery (The Upsell Package)
 * [ ] **Multi-Source Ingestion:** Automated webhook ingestion from Google Drive, Dropbox, or S3 bucket.
