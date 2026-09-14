@@ -76,11 +76,14 @@ whether or not it is listed - the only real choice is which version.
 
 ## Hard rules
 
-- **Domain restriction.** No energy consumption, electricity tariff, smart-meter,
-  building-meter, or carbon/ESG data or vocabulary anywhere in these
-  repositories - not in code, samples, docs or test fixtures. Safe verticals are
-  logistics and freight, e-commerce, retail, corporate travel, and professional
-  services. Pillar 1 enforces this with a test that greps every tracked file.
+- **Domain restriction.** These repositories stay entirely out of the energy and
+  utility sector: no consumption data, no metering, no utility billing, no
+  sustainability reporting - not in code, samples, docs or test fixtures. Safe
+  verticals are logistics and freight, e-commerce, retail, corporate travel, and
+  professional services. Each pillar enforces this with a test that greps every
+  tracked file, and those tests ban the specific vocabulary. Do not restate the
+  banned words here: this file is scanned too, and a continuation line that
+  carries them without the test suite marker fails the build.
 - **Never commit the parent `AI Startup/` folder.** It holds private strategy
   notes. One repository per pillar, rooted in that pillar's own directory.
 - **Public repos.** These are or will be public. Do not write the author's
